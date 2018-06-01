@@ -1,0 +1,15 @@
+version: '3'
+services:
+  # Production enviroment
+  fga-prod:
+    image: victorhad/fga-ontology:latest
+    build:
+      context: .
+      dockerfile: ./compose/production/Dockerfile
+
+  # NGINX to production
+  fga-nginx:
+    image: victorhad/fga-ontology:nginx
+    build:
+      context: .
+      dockerfile: ./compose/nginx/Dockerfile

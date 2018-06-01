@@ -1,0 +1,12 @@
+[run]
+omit =
+  *migrations*,
+  *tests*,
+  *.html*,
+  *__init__.py*,
+  *apps.py*,
+  *manage.py*,
+  *fga_ontology/fga_ontology/config*,
+  *fga_ontology/fga_ontology/settings.py*,
+  *fga_ontology/fga_ontology/wsgi.py*,
+  *fga_ontology/fga_ontology/urls.py*,

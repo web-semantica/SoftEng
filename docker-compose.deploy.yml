@@ -1,0 +1,22 @@
+version: '3'
+services:
+  # Server
+  fga-nginx:
+    image: victorhad/fga-ontology:nginx
+    container_name: fga-nginx
+    ports:
+      - "8000:8000"
+    depends_on:
+      - fga-prod
+
+  # Backend production enviroment
+  fga-prod:
+    image: victorhad/fga-ontology:latest
+    container_name: fga-prod
+    depends_on:
+      - db
+
+  # Postgresql database
+  db:
+    image: postgres
+    container_name: fga-db

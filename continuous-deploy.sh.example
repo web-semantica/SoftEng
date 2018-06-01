@@ -1,0 +1,18 @@
+# Homolog
+cd /home/software/fga_ontology
+git fetch origin
+git pull origin develop
+docker-compose -f /home/software/fga_ontology/docker-compose.yml down
+docker-compose -f /home/software/fga_ontology/docker-compose.yml up --build -d
+docker exec fga-ontology python3 manage.py makemigrations
+docker exec fga-ontology python3 manage.py migrate
+
+# Production
+cd /home/software/fga_ontology
+git fetch origin
+git pull origin master
+echo y | docker-compose -f /home/software/fga_ontology/docker-compose.deploy.yml rm --stop fga-nginx
+echo y | docker-compose -f /home/software/fga_ontology/docker-compose.deploy.yml rm --stop fga-prod
+docker-compose -f /home/software/fga_ontology/docker-compose.deploy.yml up --build -d
+docker exec fga-prod python3 manage.py makemigrations
+docker exec fga-prod python3 manage.py migrate

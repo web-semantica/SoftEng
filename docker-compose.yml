@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fga-local:
+    image: victorhad/fga-ontology:local
+    container_name: fga-ontology
+    build:
+      context: .
+      dockerfile: ./compose/local/Dockerfile
+    ports:
+      - "8000:8000"

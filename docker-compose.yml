@@ -1,10 +1,11 @@
 version: '3'
 services:
-  fga-local:
-    image: victorhad/fga-ontology:local
-    container_name: fga-ontology
+  # Sesame triplestore to local enviroment
+  sesame:
+    image: victorhad/fga-ontology:sesame
+    container_name: sesame-local
     build:
       context: .
-      dockerfile: ./compose/local/Dockerfile
+      dockerfile: ./compose/sesame/Dockerfile
     ports:
-      - "8000:8000"
+      - "8001:8080"

@@ -9,7 +9,7 @@ services:
     depends_on:
       - fga-prod
 
-  # Backend production enviroment
+  # Production enviroment
   fga-prod:
     image: victorhad/fga-ontology:latest
     container_name: fga-prod
@@ -20,3 +20,10 @@ services:
   db:
     image: postgres
     container_name: fga-db
+
+  # Sesame triplestore
+  sesame:
+    image: victorhad/fga-ontology:sesame
+    container_name: sesame
+    ports:
+      - "8001:8080"

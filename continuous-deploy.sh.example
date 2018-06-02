@@ -2,10 +2,12 @@
 cd /home/software/fga_ontology
 git fetch origin
 git pull origin develop
-docker-compose -f /home/software/fga_ontology/docker-compose.yml down
-docker-compose -f /home/software/fga_ontology/docker-compose.yml up --build -d
+docker-compose -f /home/software/fga_ontology/docker-compose.staging.yml down
+docker-compose -f /home/software/fga_ontology/docker-compose.staging.yml up --build -d
 docker exec fga-ontology python3 manage.py makemigrations
 docker exec fga-ontology python3 manage.py migrate
+# Run Sesame triplestore
+docker-compose up -d
 
 # Production
 cd /home/software/fga_ontology

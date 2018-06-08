@@ -21,11 +21,11 @@ ENV MODE_ENVIROMENT=development
 # Create software folder
 ADD . /software
 WORKDIR /software
-RUN pip3 install -r fga_ontology/requirements.txt
+RUN pip3 install -r softeng/requirements.txt
 
 # Run the dev script before and after any command
 RUN chmod +x compose/local/local.sh
 ENTRYPOINT ["compose/local/local.sh"]
 
 # Run the server
-CMD ["python3", "fga_ontology/manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python3", "softeng/manage.py", "runserver", "0.0.0.0:8000"]

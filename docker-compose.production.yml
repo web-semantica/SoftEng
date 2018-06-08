@@ -1,22 +1,22 @@
 version: '3'
 services:
   # Production enviroment
-  fga-prod:
-    image: victorhad/fga-ontology:latest
+  softeng-prod:
+    image: victorhad/softeng:latest
     build:
       context: .
       dockerfile: ./compose/production/Dockerfile
 
   # NGINX to production
-  fga-nginx:
-    image: victorhad/fga-ontology:nginx
+  softeng-nginx:
+    image: victorhad/softeng:nginx
     build:
       context: .
       dockerfile: ./compose/nginx/Dockerfile
 
   # Sesame triplestore
   sesame:
-    image: victorhad/fga-ontology:sesame
+    image: victorhad/softeng:sesame
     build:
       context: .
       dockerfile: ./compose/sesame/Dockerfile

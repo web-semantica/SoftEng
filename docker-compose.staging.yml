@@ -1,9 +1,9 @@
 version: '3'
 services:
   # Homolog enviroment
-  fga-local:
-    image: victorhad/fga-ontology:local
-    container_name: fga-ontology
+  softeng-local:
+    image: victorhad/softeng:local
+    container_name: softeng
     build:
       context: .
       dockerfile: ./compose/local/Dockerfile

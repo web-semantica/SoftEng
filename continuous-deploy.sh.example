@@ -1,20 +1,20 @@
 # Homolog
-cd /home/software/fga_ontology
+cd /home/software/softeng
 git fetch origin
 git pull origin develop
-docker-compose -f /home/software/fga_ontology/docker-compose.staging.yml down
-docker-compose -f /home/software/fga_ontology/docker-compose.staging.yml up --build -d
-docker exec fga-ontology python3 manage.py makemigrations
-docker exec fga-ontology python3 manage.py migrate
+docker-compose -f /home/software/softeng/docker-compose.staging.yml down
+docker-compose -f /home/software/softeng/docker-compose.staging.yml up --build -d
+docker exec softeng python3 manage.py makemigrations
+docker exec softeng python3 manage.py migrate
 # Run Sesame triplestore
 docker-compose up -d
 
 # Production
-cd /home/software/fga_ontology
+cd /home/software/softeng
 git fetch origin
 git pull origin master
-echo y | docker-compose -f /home/software/fga_ontology/docker-compose.deploy.yml rm --stop fga-nginx
-echo y | docker-compose -f /home/software/fga_ontology/docker-compose.deploy.yml rm --stop fga-prod
-docker-compose -f /home/software/fga_ontology/docker-compose.deploy.yml up --build -d
-docker exec fga-prod python3 manage.py makemigrations
-docker exec fga-prod python3 manage.py migrate
+echo y | docker-compose -f /home/software/softeng/docker-compose.deploy.yml rm --stop softeng-nginx
+echo y | docker-compose -f /home/software/softeng/docker-compose.deploy.yml rm --stop softeng-prod
+docker-compose -f /home/software/softeng/docker-compose.deploy.yml up --build -d
+docker exec softeng-prod python3 manage.py makemigrations
+docker exec softeng-prod python3 manage.py migrate

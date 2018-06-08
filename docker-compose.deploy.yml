@@ -1,29 +1,29 @@
 version: '3'
 services:
   # Server
-  fga-nginx:
-    image: victorhad/fga-ontology:nginx
-    container_name: fga-nginx
+  softeng-nginx:
+    image: victorhad/softeng:nginx
+    container_name: softeng-nginx
     ports:
       - "8000:8000"
     depends_on:
-      - fga-prod
+      - softeng-prod
 
   # Production enviroment
-  fga-prod:
-    image: victorhad/fga-ontology:latest
-    container_name: fga-prod
+  softeng-prod:
+    image: victorhad/softeng:latest
+    container_name: softeng-prod
     depends_on:
       - db
 
   # Postgresql database
   db:
     image: postgres
-    container_name: fga-db
+    container_name: softeng-db
 
   # Sesame triplestore
   sesame:
-    image: victorhad/fga-ontology:sesame
+    image: victorhad/softeng:sesame
     container_name: sesame
     ports:
       - "8001:8080"

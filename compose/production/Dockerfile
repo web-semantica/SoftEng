@@ -23,7 +23,7 @@ ENV MODE_ENVIROMENT=production
 # Create software folder
 ADD . /software
 WORKDIR /software
-RUN pip3 install -r fga_ontology/requirements.txt
+RUN pip3 install -r softeng/requirements.txt
 
 # Expose the port 8000
 EXPOSE 8000
@@ -33,4 +33,4 @@ RUN chmod +x compose/production/production.sh
 ENTRYPOINT ["compose/production/production.sh"]
 
 # Run the server
-CMD ["gunicorn", "--bind 0.0.0.0:8000", "--chdir fga_ontology", "fga_ontology.wsgi"]
+CMD ["gunicorn", "--bind 0.0.0.0:8000", "--chdir softeng", "softeng.wsgi"]

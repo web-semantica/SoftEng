@@ -9,4 +9,4 @@ sudo docker-compose -f docker-compose.staging.yml build
 sudo docker-compose -f docker-compose.staging.yml push
 
 # sudo apt-get install sshpass -y
-# sshpass -p $SSH_PASSWORD ssh user@IP '/bin/bash /home/software/fga-ontology-deploy.sh'
+# sshpass -p $SSH_PASSWORD ssh user@IP '/bin/bash /home/software/softeng-deploy.sh'

@@ -1,11 +1,11 @@
-# FGA-Ontology
+# SoftEng
 
-Ontologia de disciplinas do curso de Engenharia de Software da FGA
+Ontologia do curso de Engenharia de Software
 
 #### Para acessar a aplicação:
 
 ```
-python3 fga_ontology/manage.py runserver 0.0.0.0:8000
+python3 softeng/manage.py runserver 0.0.0.0:8000
 Navegador: http://0.0.0.0:8000/
 ```
 

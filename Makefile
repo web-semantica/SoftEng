@@ -7,27 +7,27 @@ SERVER = 0.0.0.0:8000
 
 run:
 	# Run the development server
-	python3 fga_ontology/manage.py runserver ${SERVER}
+	python3 softeng/manage.py runserver ${SERVER}
 
 migrations:
 	# Create all migrations from models
-	python3 fga_ontology/manage.py makemigrations
+	python3 softeng/manage.py makemigrations
 
 migrate:
 	# Migrate all migrations on database
-	python3 fga_ontology/manage.py migrate
+	python3 softeng/manage.py migrate
 
 superuser:
 	# Create a superuser on system
-	python3 fga_ontology/manage.py createsuperuser
+	python3 softeng/manage.py createsuperuser
 
 shell:
 	# Run interactive shell of project
-	python3 fga_ontology/manage.py shell_plus
+	python3 softeng/manage.py shell_plus
 
 staticfiles:
 	# Generate the staticfiles
-	python3 fga_ontology/manage.py collectstatic
+	python3 softeng/manage.py collectstatic
 
 populate:
 	# Populate the sesame triplestore with RDF file

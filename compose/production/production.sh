@@ -19,15 +19,15 @@ until postgres_ready; do
 done
 
 echo "Deleting migrations"
-find . -path "fga_ontology/*/migrations/*.pyc"  -delete
-find . -path "fga_ontology/*/migrations/*.py" -not -name "__init__.py" -delete
+find . -path "softeng/*/migrations/*.pyc"  -delete
+find . -path "softeng/*/migrations/*.py" -not -name "__init__.py" -delete
 
 echo "Deleting staticfiles"
-find . -path "fga_ontology/fga_ontology/static/*"  -delete
+find . -path "softeng/settings/static/*"  -delete
 
 echo "Creating migrations and insert into psql database"
-python3 fga_ontology/manage.py makemigrations
-python3 fga_ontology/manage.py migrate
+python3 softeng/manage.py makemigrations
+python3 softeng/manage.py migrate
 
 echo "Run server"
-gunicorn --bind 0.0.0.0:8000 --chdir fga_ontology fga_ontology.wsgi
+gunicorn --bind 0.0.0.0:8000 --chdir softeng softeng.wsgi

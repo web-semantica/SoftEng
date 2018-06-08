@@ -1,6 +1,6 @@
 class Sesame(object):
     """
-    Constantes em relação ao banco de triplas e conexões.
+    Constants in relation to the triple store and connections
     """
 
     repository = 'softeng'

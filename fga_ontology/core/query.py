@@ -5,7 +5,7 @@ import json
 
 class Query(object):
     """
-    Classe que armazena todas as SPARQL querys para a aplicação.
+    Class that run the SPARQL queries
     """
 
     @classmethod

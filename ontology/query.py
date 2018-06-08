@@ -15,16 +15,19 @@ query = """
     WHERE {
       ?disciplinas rdfs:subClassOf ?restricao1 .
       ?restricao1 owl:onProperty es:ePreRequisitoDe .
-      ?restricao1 owl:someValuesFrom es:Aprendizado_de_Maquina .
+      ?restricao1 owl:someValuesFrom es:%s .
       ?disciplinas rdfs:subClassOf ?restricao2 .
       ?restricao2 owl:onProperty es:estaNoFluxoDo .
-      ?restricao2 owl:someValuesFrom es:Segundo_Semestre .
+      ?restricao2 owl:someValuesFrom es:%s .
       ?disciplinas dc:title ?titulo .
       ?disciplinas es:ementa ?ementa
     }
-"""
+""" % (
+    "Aprendizado_de_Maquina",
+    "Segundo_Semestre"
+)
 
-repository = 'fga'
+repository = 'softeng'
 endpoint = "http://localhost:8001/openrdf-sesame/repositories/{0}".format(repository)
 
 print("POST SPARQL query to %s" % endpoint)
@@ -44,10 +47,6 @@ headers = {
 )
 
 print("Response %s" % response.status)
-
-DISCIPLINAS = 0
-TITULO = 1
-EMENTA = 2
 
 results = json.loads(content.decode('utf-8'))
 

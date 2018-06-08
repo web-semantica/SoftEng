@@ -112,3 +112,4 @@ db.sqlite3
 fga_ontology/**/migrations/**
 fga_ontology/!**/migrations
 fga_ontology/!**/migrations/__init__.py
+catalog-v001

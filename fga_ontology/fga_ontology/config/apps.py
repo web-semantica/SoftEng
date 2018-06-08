@@ -19,6 +19,7 @@ EXTERNAL_APPS = [
 
 LOCAL_APPS = [
     'core',
+    'software'
 ]
 
 PRODUCTION_APPS = APPS_DJANGO + EXTERNAL_APPS + LOCAL_APPS

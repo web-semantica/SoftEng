@@ -1,7 +1,7 @@
 import urllib
 import httplib2
 
-repository = 'fga'
+repository = 'softeng'
 context = "http://www.semanticweb.org/ontologies/2018-1/engenharia_de_software"
 filename = './ontology/RDF/FGA.rdf'
 

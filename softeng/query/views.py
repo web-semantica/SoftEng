@@ -53,9 +53,12 @@ class SPARQLQueryAPIView(generics.GenericAPIView):
         serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
 
-        result = Query.run(
-            serializer.data['endpoint'],
-            serializer.data['query']
-        )
+        try:
+            result = Query.run(
+                serializer.data['endpoint'],
+                serializer.data['query']
+            )
+        except Exception as error:
+            return Response(str(error), status=status.HTTP_400_BAD_REQUEST)
 
         return Response(result, status=status.HTTP_200_OK)

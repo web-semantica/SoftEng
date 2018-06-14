@@ -17,7 +17,6 @@
     <Prefix name="foaf" IRI="http://xmlns.com/foaf/spec/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
-    <Prefix name="foaf1" IRI="http://xmlns.com/foaf/0.1/"/>
     <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="engenharia_de_software" IRI="http://www.semanticweb.org/ontologies/2018/engenharia_de_software/"/>
     <Annotation>
@@ -63,11 +62,17 @@ m) Estimular a interação de docentes e discentes com o governo, a indústria e
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1.5</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:source"/>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PPC (Projeto Pedagógico do Curso) aprovado em 2011 com base: Nas diretrizes do Conselho Nacional de Educação (CNE); Nas diretrizes curriculares para os cursos de Engenharia de Software das principais associações norte-americanas de engenharia e computação, como IEEE-CS e ACM e nos Currículos de Referência de Cursos de Computação da Sociedade Brasileira de Computação SBC.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PPC (Projeto Pedagógico do Curso) aprovado em 2011 com base: Nas diretrizes do Conselho Nacional de Educação (CNE); Nas diretrizes curriculares para os cursos de Engenharia de Software das principais associações norte-americanas de engenharia e computação, como IEEE-CS e ACM, nos Currículos de Referência de Cursos de Computação da Sociedade Brasileira de Computação SBC e no livro Guide to the Software Engineering Body of Knowledge (SWEEBOK) versão 3.0.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dcterms:provenance"/>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">v0.5 - Modificando a ontologia de instancias para classes
+v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA
+v1.5 - Inserindo a matriz currícular e os conteúdos currículares do curso de engenharia de software.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
@@ -84,11 +89,6 @@ Missão do curso de bacharelado em Engenharia de Software: Promover o ensino, a 
 A inserção do profissional de Engenharia de Software pode se dar junto aos seguintes segmentos profissionais: Na indústria e em empresas onde a produção de software seja atividade fim ou atividade meio, em especial empresas/indústrias que envolvam software embarcado. Em órgãos ou entidades da administração pública direta, indireta ou junto a entes sociais autônomos. Na pesquisa e no desenvolvimento de soluções de engenharia de software junto a universidades e entidades de pesquisa científica e tecnológica.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dcterms:provenance"/>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">v0.5 - Modificando a ontologia de instancias para classes
-v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Curso de Engenharia de Software</Literal>
     </Annotation>
@@ -101,13 +101,16 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engenharia De Software</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="/Processamento_Paralelo"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Multimidia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Processamento_Paralelo"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Engenharia_de_Software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Pratica_Eletronica_Digital"/>
@@ -152,6 +155,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Interacao_Humano_Computador"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Testes_de_Software"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Meio_Ambiente"/>
     </Declaration>
     <Declaration>
@@ -188,6 +194,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Atividades_de_Ensino"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="/Fundamento_de_Sistemas_Embarcados"/>
     </Declaration>
     <Declaration>
@@ -200,10 +209,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Fluxo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Fisica_para_Jogos_Eletronicos_1"/>
+        <NamedIndividual IRI="/Tecnicas_de_Medicao_Funcional_e_Estimativas_de_Software"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Tecnicas_de_Medicao_Funcional_e_Estimativas_de_Software"/>
+        <NamedIndividual IRI="/Fisica_para_Jogos_Eletronicos_1"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Automacao"/>
@@ -215,13 +224,22 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <NamedIndividual IRI="/Sistema_de_Banco_de_Dados_1"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/DominioUniversitario"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Novos_Paradigmas_de_Computacao"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Tecnicas_de_Programacao"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Metodos_Numericos_para_Engenharia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Manutencao_de_Software"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Sistemas_Operacionais"/>
@@ -260,6 +278,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Teoria_da_Computacao"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Construcao_de_Software"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="/Criptografia_e_Seguranca_de_Redes"/>
     </Declaration>
     <Declaration>
@@ -272,13 +293,16 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <NamedIndividual IRI="/Engenharia_Economica"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="/Fundamento_de_Arquitetura_de_Computadores"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/ePreRequisitoDe"/>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+        <ObjectProperty IRI="/ePreRequisitoDe"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Seguranca"/>
@@ -287,10 +311,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Primeiro_Semestre"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Probabilidade_e_Estatistica_Aplicado_a_Engenharia"/>
+        <Class IRI="/Processamento_de_Imagens"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Processamento_de_Imagens"/>
+        <NamedIndividual IRI="/Probabilidade_e_Estatistica_Aplicado_a_Engenharia"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Fundamento_de_Sistemas_Operacionais"/>
@@ -305,6 +329,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
     </Declaration>
     <Declaration>
@@ -314,13 +341,16 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Engenharia_Economica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Obrigatoria"/>
+        <Class IRI="/Fundamentos_Matematicos"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Obrigatoria"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Melhoria_de_Processo_de_Software"/>
@@ -332,7 +362,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <AnnotationProperty IRI="/perfil_profissional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Economia_em_Engenharia_de_Software"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/eConteudoDo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Estrutura_de_Dados_e_Algoritmos_1"/>
@@ -341,13 +374,16 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <DataProperty IRI="/creditos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Atividades_de_Representacoes_Estudantis"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="/Introducao_a_Atividade_Empresarial"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Atividades_de_Representacoes_Estudantis"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Sexto_Semestre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Conteudos_Curriculares"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Engenharia_de_Software_Experimental"/>
@@ -362,6 +398,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <NamedIndividual IRI="/Introducao_a_Web_Semantica"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Qualidade_de_Software"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Setimo_Semestre"/>
     </Declaration>
     <Declaration>
@@ -374,13 +413,16 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <AnnotationProperty abbreviatedIRI="dc:rights"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Realidade_Virtual"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="/Introducao_a_Engenharia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Realidade_Virtual"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="/Paradigmas_de_Programacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Design_de_Software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Metodos_e_Tecnicas_da_Escrita_Cientifica"/>
@@ -404,6 +446,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <NamedIndividual IRI="/Requisitos_de_Software"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="/temConteudo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Etica_e_Legislacao"/>
     </Declaration>
     <Declaration>
@@ -419,7 +464,16 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <DataProperty IRI="/apelido"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Fundamentos_de_Engenharia"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Sistemas_de_Tempo_Real"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Fundamentos_de_Computacao"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Programacao"/>
@@ -449,10 +503,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <NamedIndividual IRI="/Arquitetura_e_Desenho_de_software"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Metodologia_Cientifica"/>
+        <NamedIndividual IRI="/Informacao_Comunicacao_e_a_Sociedade_do_Conhecimento"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Informacao_Comunicacao_e_a_Sociedade_do_Conhecimento"/>
+        <Class IRI="/Metodologia_Cientifica"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
@@ -462,6 +516,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </Declaration>
     <Declaration>
         <DataProperty IRI="/DisciplinaDataProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Modelagem_Computacional"/>
@@ -503,16 +560,19 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Atividades_de_Extensao"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Analise_Combinatoria"/>
+        <Class IRI="/Redes_de_Computadores"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Redes_de_Computadores"/>
+        <Class IRI="/Analise_Combinatoria"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Matriz_Curricular"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Optativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:language"/>
@@ -614,13 +674,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Ergonomia"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Projeto_Integrador_de_Engenharia_2"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="/Introducao_aos_Jogos_Eletronicos"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf1:age"/>
+        <NamedIndividual IRI="/Projeto_Integrador_de_Engenharia_2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Engenharia_de_Produto_de_Software"/>
@@ -641,6 +698,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <AnnotationProperty IRI="/habilitacao"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Processo_de_Engenharia_de_Software"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="/temPreRequisito"/>
     </Declaration>
     <Declaration>
@@ -651,6 +711,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Calculo_2"/>
@@ -698,6 +761,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Computacao_Grafica"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Engenharia_de_Requisitos"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Empreendedorismo"/>
     </Declaration>
     <Declaration>
@@ -719,33 +785,79 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Classificacao"/>
+        <AnnotationProperty abbreviatedIRI="dcterms:license"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dcterms:license"/>
+        <Class IRI="/Classificacao"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Programacao_Web"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Algoritmos_e_Complexidade"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Algoritmos_e_Complexidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Analise_Combinatoria"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Combinatoria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Combinatoria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Areas_de_Conhecimento"/>
+        <Class IRI="/Engenharia_de_Software"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Arquitetura_e_Organizacao_de_Computadores"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Arquitetura_e_Organizacao_de_Computadores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Atividades_de_Acao_social_Cidadania_e_Meio_Ambiente"/>
@@ -777,35 +889,92 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Automacao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Automacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Avaliacao_de_Desempenho"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Circuitos_Digitais"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Circuitos_Digitais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Classificacao"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="/DominioUniversitario"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Compiladores"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Compiladores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Computacao_Grafica"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Computacao_Grafica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Computacao_e_Sociedade"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Computacao_e_Sociedade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Construcao_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Conteudos_Curriculares"/>
+        <Class IRI="/Engenharia_de_Software"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Decimo_Semestre"/>
@@ -813,31 +982,100 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Dependabilidade"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dependabilidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Design_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Dinamica_e_Psicologia_de_Grupo"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dinamica_e_Psicologia_de_Grupo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DominioUniversitario"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Empreendedorismo"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Empreendedorismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Engenharia_Economica"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_Economica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Engenharia_de_Produto"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Engenharia_de_Qualidade"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Requisitos"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Software"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Ergonomia"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ergonomia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Estagio_Supervisionado"/>
@@ -852,103 +1090,292 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Estruturas_Algebricas"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Estruturas_Algebricas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Etica_e_Legislacao"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Etica_e_Legislacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Evolucao_de_Software"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Evolucao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Filosofia"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Filosofia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Fluxo"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="/DominioUniversitario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_Matematicos"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_Matematicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Analise_Combinatoria"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Fundamentos_de_Administracao"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Administracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Computacao"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Engenharia"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Fundamentos_de_Linguagens"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Linguagens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Impactos_Sociais_da_Tecnologia_de_Software"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Impactos_Sociais_da_Tecnologia_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Instituicao"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="/DominioUniversitario"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Interacao_Humano_Computador"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Interacao_Humano_Computador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Linguagens_Formais_e_Automatos"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Linguagens_Formais_e_Automatos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Logica"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Logica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Manutencao_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Matematica_Aplicada"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Matematica_Aplicada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Matematica_Discreta"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Matematica_Discreta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Matematica_do_Continuo"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Matematica_do_Continuo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Matriz_Curricular"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="/DominioUniversitario"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Meio_Ambiente"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Meio_Ambiente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Metodologia_Cientifica"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Metodologia_Cientifica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Metodos_Formais"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Metodos_Formais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Modelagem_Computacional"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelagem_Computacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Modulo_Livre_e_Atividades_Complementares_e_de_Extensao"/>
@@ -967,7 +1394,14 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Multimidia"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Multimidia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Nono_Semestre"/>
@@ -975,23 +1409,485 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Novos_Paradigmas_de_Computacao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Novos_Paradigmas_de_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <Class IRI="/Matriz_Curricular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Analise_Combinatoria"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Computacao_e_Sociedade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Dinamica_e_Psicologia_de_Grupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Empreendedorismo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Engenharia_Economica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Ergonomia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Estruturas_Algebricas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Etica_e_Legislacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Filosofia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Fundamentos_de_Administracao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Impactos_Sociais_da_Tecnologia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Interacao_Humano_Computador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Linguagens_Formais_e_Automatos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Logica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Matematica_Aplicada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Matematica_Discreta"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Matematica_do_Continuo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Meio_Ambiente"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Metodologia_Cientifica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Metodos_Formais"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Praticas_de_Comunicacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Probabilidade_e_Estatistica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
         <Class IRI="/Matriz_Curricular"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Engenharia_de_Produto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Engenharia_de_Qualidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Evolucao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
         <Class IRI="/Matriz_Curricular"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
-        <Class IRI="/Matriz_Curricular"/>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Algoritmos_e_Complexidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Arquitetura_e_Organizacao_de_Computadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Automacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Avaliacao_de_Desempenho"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Circuitos_Digitais"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Compiladores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Computacao_Grafica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Dependabilidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Fundamentos_de_Linguagens"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Modelagem_Computacional"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Multimidia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Novos_Paradigmas_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Processamento_Distribuido"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Processamento_Paralelo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Processamento_de_Imagens"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Programacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Realidade_Virtual"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Redes_de_Computadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Robotica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Seguranca"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Sistemas_Embarcados"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Sistemas_Operacionais"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Sistemas_de_Tempo_Real"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Teoria_da_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Teoria_dos_Grafos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Obrigatoria"/>
@@ -1007,15 +1903,40 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Planejamento_e_Controle_do_Software"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Praticas_de_Comunicacao"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Praticas_de_Comunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Primeiro_Semestre"/>
@@ -1023,23 +1944,62 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Probabilidade_e_Estatistica"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Probabilidade_e_Estatistica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Processamento_Distribuido"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_Distribuido"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Processamento_Paralelo"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_Paralelo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Processamento_de_Imagens"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_de_Imagens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processo_de_Engenharia_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Programacao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Projeto_Integrador"/>
@@ -1053,6 +2013,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Qualidade_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Quarto_Semestre"/>
         <Class IRI="/Fluxo"/>
     </SubClassOf>
@@ -1062,23 +2026,58 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Realidade_Virtual"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Realidade_Virtual"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Redes_de_Computadores"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Redes_de_Computadores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Robotica"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Robotica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Segundo_Semestre"/>
@@ -1086,7 +2085,14 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Seguranca"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Setimo_Semestre"/>
@@ -1098,27 +2104,66 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Sistemas_Embarcados"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_Embarcados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Sistemas_Operacionais"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_Operacionais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Sistemas_de_Tempo_Real"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_de_Tempo_Real"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Teoria_da_Computacao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Teoria_da_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Teoria_dos_Grafos"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Teoria_dos_Grafos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Terceiro_Semestre"/>
         <Class IRI="/Fluxo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Testes_de_Software"/>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Trabalho_de_Conclusao_de_Curso"/>
@@ -1133,11 +2178,19 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
-        <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        <Class IRI="/Conteudos_Curriculares"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eConteudoDo"/>
+            <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
         <Class IRI="/Algoritmos_e_Complexidade"/>
+        <Class IRI="/Analise_Combinatoria"/>
         <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
         <Class IRI="/Arquitetura_e_Organizacao_de_Computadores"/>
         <Class IRI="/Automacao"/>
@@ -1145,18 +2198,52 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Circuitos_Digitais"/>
         <Class IRI="/Compiladores"/>
         <Class IRI="/Computacao_Grafica"/>
+        <Class IRI="/Computacao_e_Sociedade"/>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
         <Class IRI="/Dependabilidade"/>
+        <Class IRI="/Dinamica_e_Psicologia_de_Grupo"/>
+        <Class IRI="/Empreendedorismo"/>
+        <Class IRI="/Engenharia_Economica"/>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <Class IRI="/Ergonomia"/>
+        <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        <Class IRI="/Estruturas_Algebricas"/>
+        <Class IRI="/Etica_e_Legislacao"/>
+        <Class IRI="/Evolucao_de_Software"/>
+        <Class IRI="/Filosofia"/>
+        <Class IRI="/Fundamentos_de_Administracao"/>
         <Class IRI="/Fundamentos_de_Linguagens"/>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <Class IRI="/Impactos_Sociais_da_Tecnologia_de_Software"/>
         <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
+        <Class IRI="/Interacao_Humano_Computador"/>
+        <Class IRI="/Linguagens_Formais_e_Automatos"/>
+        <Class IRI="/Logica"/>
+        <Class IRI="/Matematica_Aplicada"/>
+        <Class IRI="/Matematica_Discreta"/>
+        <Class IRI="/Matematica_do_Continuo"/>
+        <Class IRI="/Meio_Ambiente"/>
+        <Class IRI="/Metodologia_Cientifica"/>
+        <Class IRI="/Metodos_Formais"/>
         <Class IRI="/Modelagem_Computacional"/>
+        <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
         <Class IRI="/Multimidia"/>
+        <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
         <Class IRI="/Novos_Paradigmas_de_Computacao"/>
+        <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <Class IRI="/Praticas_de_Comunicacao"/>
+        <Class IRI="/Probabilidade_e_Estatistica"/>
         <Class IRI="/Processamento_Distribuido"/>
         <Class IRI="/Processamento_Paralelo"/>
         <Class IRI="/Processamento_de_Imagens"/>
         <Class IRI="/Programacao"/>
         <Class IRI="/Realidade_Virtual"/>
         <Class IRI="/Redes_de_Computadores"/>
+        <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
         <Class IRI="/Robotica"/>
         <Class IRI="/Seguranca"/>
         <Class IRI="/Sistemas_Embarcados"/>
@@ -1192,6 +2279,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Praticas_de_Comunicacao"/>
         <Class IRI="/Probabilidade_e_Estatistica"/>
         <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Areas_de_Conhecimento"/>
+        <Class IRI="/Conteudos_Curriculares"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="/Atividades_de_Acao_social_Cidadania_e_Meio_Ambiente"/>
@@ -1233,6 +2324,10 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <Class IRI="/Terceiro_Semestre"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="/DominioUniversitario"/>
+        <Class IRI="/Engenharia_de_Software"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="/Estagio_Supervisionado"/>
         <Class IRI="/Projeto_Integrador"/>
         <Class IRI="/Trabalho_de_Conclusao_de_Curso"/>
@@ -1240,9 +2335,9 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
     <DisjointClasses>
         <Class IRI="/Modulo_Livre_e_Atividades_Complementares_e_de_Extensao"/>
         <Class IRI="/Multidisciplinar"/>
+        <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
         <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
         <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
-        <Class IRI="/Nucleo_de_conteudos_basicos"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="/Obrigatoria"/>
@@ -4759,6 +5854,14 @@ v1.0 - Finalizando a primeira versão da ontologia de disciplinas da FGA</Litera
         <ObjectProperty IRI="/temDisciplina"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
+        <ObjectProperty IRI="/eConteudoDo"/>
+        <ObjectProperty IRI="/temConteudo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+        <ObjectProperty IRI="/temConteudo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="/ePreRequisitoDe"/>
         <ObjectProperty IRI="/temPreRequisito"/>
     </InverseObjectProperties>
@@ -5142,6 +6245,21 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Não há ementa disponível</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Areas_de_Conhecimento</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Área de conhecimento de Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <IRI>/Areas_de_Conhecimento</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SWEBOK - Guide to the Software Engineering Body of Knowledge Version 3.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Areas_de_Conhecimento</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Áreas de Conhecimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Arquitetura_e_Desenho_de_software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Arquitetura e desenho de software</Literal>
@@ -5176,9 +6294,7 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Atividades_de_Ensino</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Monitoria de disciplinas do curso, professor de curso técnico, etc.
-
-Exemplo: Programa de Educação Tutorial (PET) que tem o objetivo de melhorar a qualidade do ensino de graduação oferecendo uma formação acadêmica de excelente nível. Este é um programa de caráter tutorial formado por um grupo composto de um tutor e doze bolsistas. O Programa de Educação Tutorial (PET) é um programa de comprovada excelência, o qual compromete-se fundamentalmente em aprimorar os cursos de graduação. Trabalha com quatro vertentes principais que são: Ensino, Cultura, Pesquisa e Extensão e forma cidadãos que aprendem durante três anos a trabalhar em equipe, a irradiar para os demais colegas o espírito de liderança e o compromisso com a geração de conhecimento para a solução dos mais diversos problemas. É o único programa institucional voltado para graduação que trabalha no formato de grupo interdisciplinar, ancorado em alunos e professores e que recebe avaliação institucional e não individual.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Monitoria de disciplinas do curso, professor de curso técnico, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5186,16 +6302,24 @@ Exemplo: Programa de Educação Tutorial (PET) que tem o objetivo de melhorar a 
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atividades de ensino</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>/Atividades_de_Ensino</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Programa de Educação Tutorial (PET) que tem o objetivo de melhorar a qualidade do ensino de graduação oferecendo uma formação acadêmica de excelente nível. Este é um programa de caráter tutorial formado por um grupo composto de um tutor e doze bolsistas. O Programa de Educação Tutorial (PET) é um programa de comprovada excelência, o qual compromete-se fundamentalmente em aprimorar os cursos de graduação. Trabalha com quatro vertentes principais que são: Ensino, Cultura, Pesquisa e Extensão e forma cidadãos que aprendem durante três anos a trabalhar em equipe, a irradiar para os demais colegas o espírito de liderança e o compromisso com a geração de conhecimento para a solução dos mais diversos problemas. É o único programa institucional voltado para graduação que trabalha no formato de grupo interdisciplinar, ancorado em alunos e professores e que recebe avaliação institucional e não individual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Atividades_de_Extensao</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cursos na área técnica ou de gestão empresarial, cursos de língua estrangeira, projetos de extensão com a comunidade Programa Institucional de Bolsas de Extensão (PIBEX), Projetos de Extensão de Ação Contínua (PEAC), participação na Semana de Engenharia;
-
-Exemplo: Programa Institucional de Bolsas de Extensão (PIBEX) que tem como principais objetivos: Investir com a ação planejada e avaliada da extensão no processo de formação acadêmica do estudante de graduação; Estimular professores a engajarem estudantes de graduação nas ações de extensão; Possibilitar aos bolsistas novos meios e processos de produção, inovação e transferência de conhecimentos, permitindo a ampliação do acesso ao saber e o desenvolvimento tecnológico e social do País.</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cursos na área técnica ou de gestão empresarial, cursos de língua estrangeira, projetos de extensão com a comunidade Programa Institucional de Bolsas de Extensão (PIBEX), Projetos de Extensão de Ação Contínua (PEAC), participação na Semana de Engenharia;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Atividades_de_Extensao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atividades de Extensão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>/Atividades_de_Extensao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Programa Institucional de Bolsas de Extensão (PIBEX) que tem como principais objetivos: Investir com a ação planejada e avaliada da extensão no processo de formação acadêmica do estudante de graduação; Estimular professores a engajarem estudantes de graduação nas ações de extensão; Possibilitar aos bolsistas novos meios e processos de produção, inovação e transferência de conhecimentos, permitindo a ampliação do acesso ao saber e o desenvolvimento tecnológico e social do País.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
@@ -5210,14 +6334,17 @@ Exemplo: Programa Institucional de Bolsas de Extensão (PIBEX) que tem como prin
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Atividades_de_Pesquisa</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participação em núcleos de pesquisa ou projetos de iniciação científica Programa Institucional de Bolsas de Iniciação Científica (PIBIC), publicação de trabalhos, participação em seminários e eventos de Iniciação Científica relacionados com a graduação;
-
-Exemplo: Programa de Iniciação Científica (PIBIC) que tem por objetivo despertar vocação científica e incentivar novos talentos potenciais entre estudantes de graduação, mediante sua participação em projetos de pesquisa</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participação em núcleos de pesquisa ou projetos de iniciação científica Programa Institucional de Bolsas de Iniciação Científica (PIBIC), publicação de trabalhos, participação em seminários e eventos de Iniciação Científica relacionados com a graduação;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Atividades_de_Pesquisa</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atividades de pesquisa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>/Atividades_de_Pesquisa</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Programa de Iniciação Científica (PIBIC) que tem por objetivo despertar vocação científica e incentivar novos talentos potenciais entre estudantes de graduação, mediante sua participação em projetos de pesquisa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
@@ -5288,7 +6415,7 @@ Exemplo: Programa de Iniciação Científica (PIBIC) que tem por objetivo desper
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Classificacao</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classificação na qual a disciplina pertence, podendo ser, obrigatória, optativa ou tronco comum</Literal>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classificação na qual a disciplina pertence, podendo ser, obrigatória ou optativa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5358,6 +6485,26 @@ Exemplo: Programa de Iniciação Científica (PIBIC) que tem por objetivo desper
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Construcao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Construção de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Construcao_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Construction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Conteudos_Curriculares</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cobertura da matriz proposta em relação aos Conteúdos Curriculares de Formação Tecnológica e Básica para todos os cursos de Bachalerado e licenciatura em computação da DCN e do curso de Bacharelado em Engenharia de Software da DCN.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Conteudos_Curriculares</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conteúdos Currículares</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Contratacao_de_Servicos_de_Tecnologia_da_Informacao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Contratação de Serviços de Tecnologia da Informação</Literal>
     </AnnotationAssertion>
@@ -5423,8 +6570,33 @@ Exemplo: Programa de Iniciação Científica (PIBIC) que tem por objetivo desper
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Design_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Design de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Design_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Dinamica_e_Psicologia_de_Grupo</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dinâmica e psicologia de grupo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/DominioUniversitario</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Domínio Universitário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Economia_em_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Econômia em Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Economia_em_Engenharia_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Economics</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5484,6 +6656,26 @@ Exemplo: Programa de Iniciação Científica (PIBIC) que tem por objetivo desper
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Engenharia_de_Requisitos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requisitos de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Engenharia_de_Requisitos</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Requirements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engenharia de Software é uma área da computação voltada à especificação, desenvolvimento, manutenção e criação de sistemas de software, com aplicação de tecnologias e práticas de gerência de projetos e outras disciplinas, visando organização, produtividade e qualidade. Atualmente, essas tecnologias e práticas englobam linguagens de programação, banco de dados, ferramentas, plataformas, bibliotecas, padrões, processos e a questão da qualidade de software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Engenharia_de_Software_Experimental</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engenharia de Software Experimental</Literal>
     </AnnotationAssertion>
@@ -5519,11 +6711,9 @@ Exemplo: Programa de Iniciação Científica (PIBIC) que tem por objetivo desper
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Estagio_Supervisionado</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estágio Supervisionado Obrigatório em Empresas ou Entidades Externas realizado após a conclusão do 7° semestre do curso, com duração mínima 210 horas verificado por meio de relatórios técnicos e acompanhamento individualizado.
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estágio Supervisionado Obrigatório em Empresas ou Entidades Externas
 
-O Estágio Supervisionado é atividade obrigatória no curso, com um mínimo de 210 horas que equivalem a 14 créditos de aulas práticas. Para alcançar a sua finalidade, associando o processo educativo à aprendizagem, o estágio precisa ser planejado, executado, acompanhado e avaliado dentro de normas de procedimentos específicos e bem definidos e também estar de acordo com os pressupostos que norteiam o projeto pedagógico do curso.
-
-Observações: Possuir uma carga horária mínima prevista de 210 horas; Para fins de integralização curricular só será considerado válido o estágio realizado após a conclusão do sétimo semestre; O estudante não poderá cursar, simultaneamente ao estágio, mais que 8 créditos. É fortemente recomendado que o estudante se dedique exclusivamente ao estágio curricular durante o período letivo; O desempenho do estagiário será avaliado: (i) Por meio de um relatório de estágio, que deverá ser um relatório técnico e não de acompanhamento, elaborado pelo próprio estagiário de acordo com orientações fornecidas por uma Coordenação de Estágio; (ii) pelo Supervisor Acadêmico, por meio do preenchimento de formulário próprio; (iii) pelo Supervisor Técnico por meio do acompanhamento das atividades desenvolvidas pelo estagiário e preenchimento de formulário próprio; O estudante poderá requerer equivalência de atividade profissional que esteja exercendo na área de Engenharia com o estágio curricular, desde que este esteja apto a realizar o estágio.</Literal>
+O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a sua finalidade, associando o processo educativo à aprendizagem, o estágio precisa ser planejado, executado, acompanhado e avaliado dentro de normas de procedimentos específicos e bem definidos e também estar de acordo com os pressupostos que norteiam o projeto pedagógico do curso.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5706,8 +6896,38 @@ Observações: Possuir uma carga horária mínima prevista de 210 horas; Para fi
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Fundamentos_Matematicos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos Matemáticos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Fundamentos_Matematicos</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mathematical Foundations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Fundamentos_de_Administracao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos de administração</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Fundamentos_de_Computacao</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Computing Foundations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Fundamentos_de_Computacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos de Computação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Fundamentos_de_Engenharia</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engineering Foundations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Fundamentos_de_Engenharia</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos de Engenharia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5739,6 +6959,26 @@ Observações: Possuir uma carga horária mínima prevista de 210 horas; Para fi
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Gerencia_de_Projetos_e_de_Configuracao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gerência de projetos e de configuração</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Gerenciamento_de_Configuracao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gerenciamento de Configuração de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Gerenciamento_de_Configuracao_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Configuration Management</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Gerenciamento_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gerenciamento de Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Gerenciamento_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5966,6 +7206,16 @@ Observações: Possuir uma carga horária mínima prevista de 210 horas; Para fi
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Manutencao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Manutenção de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Manutencao_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Maintenance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Matematica_Aplicada</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Matemática aplicada</Literal>
     </AnnotationAssertion>
@@ -6147,9 +7397,19 @@ Observações: Possuir uma carga horária mínima prevista de 210 horas; Para fi
 5. Automação de processos.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Modelos_e_Metodos_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modelos e Métodos de Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Modelos_e_Metodos_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Models and Methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Modulo_Livre_e_Atividades_Complementares_e_de_Extensao</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As disciplinas que constituem a formação complementar e formação livre possibilitam que o estudante seja co-responsável pela construção de seu currículo, com uma formação na sua área de maior interesse e, não somente uma formação teórico-prática generalizada. A formação livre, disciplinas categorizadas como módulo livre, constitui de atividades/disciplinas desenvolvidas pelo estudante com base em seus interesses pessoais, que não fazem parte das atividades do ciclo básico (tronco comum às engenharias), nem das profissionalizantes, nem das complementares/optativas, nem das integradoras. Podem ser cursadas em qualquer um dos campus da Universidade.
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As disciplinas que constituem a formação complementar e formação livre possibilitam que o estudante seja co-responsável pela construção de seu currículo, com uma formação na sua área de maior interesse e, não somente uma formação teórico-prática generalizada. A formação livre, disciplinas categorizadas como módulo livre, constitui de atividades/disciplinas desenvolvidas pelo estudante com base em seus interesses pessoais, que não fazem parte das atividades do ciclo básico, nem das profissionalizantes, nem das complementares/optativas, nem das integradoras. Podem ser cursadas em qualquer um dos campus da Universidade.
 
 Além das disciplinas de livre escolha do aluno, contempla também a integralização de atividades complementares e de extensão tais como: iniciação científica, projetos multidisciplinares, participação em eventos, participação em empresa júnior, etc. Todos estes programas preveem bolsas remuneradas; comprovante de participação como voluntário, além de créditos em módulo livre.</Literal>
     </AnnotationAssertion>
@@ -6190,6 +7450,18 @@ Além das disciplinas de livre escolha do aluno, contempla também a integraliza
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Nucleo_de_Conteudos_Basicos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Exigidos pelo parecer CNE/CES 136 de 2012 (Diretrizes Curriculares para Graduação em Computação).
+
+Núcleo de conteúdos: Metodologia científica e tecnológia, Comunicação e Expressão, Expressão gráfica, Matemática, Física, Produção, Inovação, Administração, Economia, Ciências do Ambiente, Humanidades, Ciências Sociais, Cidadania</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Nucleo_de_Conteudos_Basicos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Núcleo de Conteúdos Básicos (NB)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Nucleo_de_Conteudos_Especificos</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Disciplinas abordando os fundamentos e os tópicos especifícos de Engenharia de Software, bem como de outros conteúdos específicos destinados ao desenvolvimento de competências e habilidades específicas ou complementares na área de programação, produto e processo de software
 
@@ -6211,18 +7483,6 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Nucleo_de_Conteudos_Profissionalizantes</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Núcleo de Conteúdos Profissionalizantes (NP)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <IRI>/Nucleo_de_conteudos_basicos</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Exigidos pelo parecer CNE/CES 136 de 2012 (Diretrizes Curriculares para Graduação em Computação).
-
-Núcleo de conteúdos: Metodologia científica e tecnológia, Comunicação e Expressão, Expressão gráfica, Matemática, Física, Produção, Inovação, Administração, Economia, Ciências do Ambiente, Humanidades, Ciências Sociais, Cidadania</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <IRI>/Nucleo_de_conteudos_basicos</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Núcleo de Conteúdos Básicos (NB)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
@@ -6301,6 +7561,16 @@ Núcleo de conteúdos: Metodologia científica e tecnológia, Comunicação e Ex
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Pratica_Profissional_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prática Profissional de Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Pratica_Profissional_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Professional Practice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Praticas_de_Comunicacao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Práticas de comunicação</Literal>
     </AnnotationAssertion>
@@ -6365,6 +7635,16 @@ Núcleo de conteúdos: Metodologia científica e tecnológia, Comunicação e Ex
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento de imagens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Processo_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo de Engenharia de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Processo_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="/ementa"/>
         <IRI>/Produtividade_e_Profissionalismo_em_Engenharia_de_Software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. Aspectos humanos em engenharia de software.
@@ -6426,11 +7706,9 @@ Núcleo de conteúdos: Metodologia científica e tecnológia, Comunicação e Ex
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <IRI>/Projeto_Integrador</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As disciplinas Projeto Integrador de Engenharia I e II permitem apresentar ao corpo discente metodologia de projeto baseado em problemas englobando aspectos de trabalho em equipe, comunicação e expressão, capacidade de síntese e integração, noções de empreendedorismo, responsabilidade social e ambienta.
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As disciplinas Projeto Integrador de Engenharia permitem apresentar ao corpo discente metodologia de projeto baseado em problemas englobando aspectos de trabalho em equipe, comunicação e expressão, capacidade de síntese e integração, noções de empreendedorismo, responsabilidade social e ambienta.
 
-As disciplinas Projeto Integrador de Engenharias 1 e 2 são utilizadas de forma a complementar a inclusão de conteúdos de Núcleo Básico e implantar ao longo do curso uma metodologia de aprendizagem baseada em projetos, permitindo ao estudante uma compreensão de metodologia científica e tecnológica, comunicação e expressão gráfica, dentre outros conhecimentos. Na dinâmica dessas disciplinas, prevê-se que os alunos das diversas engenharias trabalhem em conjunto em prol de um projeto que contemple as diversas áreas cobertas pela FGA. Por esse motivo, é importante que essas disciplinas sejam vistas como atividades essenciais e que sejam contempladas com recursos adequados para comportar as equipes que trabalharão separadamente.
-
-O objetivo é fomentar a integração entre discentes e docentes da Faculdade FGA, pela flexibilização e o diálogo entre os 4 cursos de engenharia, possibilitando a multi e interdisciplinariedade (entre engenharias).</Literal>
+As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a complementar a inclusão de conteúdos de Núcleo Básico e implantar ao longo do curso uma metodologia de aprendizagem baseada em projetos, permitindo ao estudante uma compreensão de metodologia científica e tecnológica, comunicação e expressão gráfica, dentre outros conhecimentos. Na dinâmica dessas disciplinas, prevê-se que os alunos dos diversos cursos trabalhem em conjunto em prol de um projeto que contemple diversas áreas. Por esse motivo, é importante que essas disciplinas sejam vistas como atividades essenciais e que sejam contempladas com recursos adequados para comportar as equipes que trabalharão separadamente.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -6475,6 +7753,16 @@ O objetivo é fomentar a integração entre discentes e docentes da Faculdade FG
 3. Paradigmas de projeto de algoritmos;
 4. Algoritmos eficientes para ordenação, comparação de sequências, problemas em grafos;
 5. Fundamentos de complexidade computacional, redução entre problemas, classes P e NP, problemas NP-Completos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Qualidade_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qualidade de Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Qualidade_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -6533,12 +7821,12 @@ O objetivo é fomentar a integração entre discentes e docentes da Faculdade FG
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Requisitos_de_Software</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requisitos de Software</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requisitos de Software</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="/ementa"/>
         <IRI>/Requisitos_de_Software</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. Conceitos básicos de requisitos e diferentes paradigmas para definição de requisitos.
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. Conceitos básicos de requisitos e diferentes paradigmas para definição de requisitos.
 2. Atributos de qualidade.
 3. Classificação de requisitos.
 4. Processo de requisitos: técnicas de levantamento de requisitos.
@@ -6710,7 +7998,7 @@ O objetivo é fomentar a integração entre discentes e docentes da Faculdade FG
     <AnnotationAssertion>
         <AnnotationProperty IRI="/ementa"/>
         <IRI>/Teste_de_Software</IRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. Terminologia e fundamentos de verificação e validação (v&amp;v) 
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1. Terminologia e fundamentos de verificação e validação (v&amp;v) 
 2. Planejamento de v&amp;v 
 3. Técnicas de verificação e validação 
 4. Ferramentas de apoio ao processo de verificação e validação 
@@ -6721,6 +8009,16 @@ O objetivo é fomentar a integração entre discentes e docentes da Faculdade FG
 9. Aspectos de implantação do processo de teste 
 10. Atividades de verificação e validação no contexto das normas e dos modelos de melhoria de processo de software. 
 11. Ferramentas de apoio as atividade de testes de software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Testes_de_Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Testes_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teste de Software</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -6838,21 +8136,6 @@ O trabalho consiste do desenvolvimento, pelo aluno, de estudo ou projeto de enge
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/perfil_profissional</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Perfil Profissional do Formado</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>foaf1:age</AbbreviatedIRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atributo da ontologia FOAF para identificar a idade de uma determinada pessoa.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <AbbreviatedIRI>foaf1:age</AbbreviatedIRI>
-        <AbbreviatedIRI>foaf:</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>foaf1:age</AbbreviatedIRI>
-        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A idade em anos de uma determinada pessoa.</Literal>
     </AnnotationAssertion>
 </Ontology>
 

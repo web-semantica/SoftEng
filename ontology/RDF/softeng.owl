@@ -805,6 +805,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Abstracao_e_Estruturas_de_Dados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Algoritmos_e_Complexidade"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -813,6 +834,34 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Algoritmos_e_Complexidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Algoritmos_e_Complexidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Algoritmos_e_Complexidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Algoritmos_e_Complexidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -827,6 +876,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Analise_Combinatoria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -835,6 +891,55 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Manutencao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -899,6 +1004,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Automacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Avaliacao_de_Desempenho"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -910,6 +1022,55 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Avaliacao_de_Desempenho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Circuitos_Digitais"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -918,6 +1079,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Circuitos_Digitais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -936,6 +1104,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Compiladores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Compiladores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Computacao_Grafica"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -944,6 +1126,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Computacao_Grafica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -958,6 +1147,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Computacao_e_Sociedade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -966,6 +1162,69 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1039,6 +1298,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Construcao_de_Software"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Evolucao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Construcao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Fundamentos_de_Linguagens"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1054,6 +1320,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Logica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Construcao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Metodos_Formais"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Construcao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1160,15 +1440,36 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Design_de_Software"/>
-        <Class IRI="/Areas_de_Conhecimento"/>
+        <Class IRI="/Dependabilidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dependabilidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dependabilidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dependabilidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Design_de_Software"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/temConteudo"/>
-            <Class IRI="/Interacao_Humano_Computador"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="/Areas_de_Conhecimento"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Design_de_Software"/>
@@ -1214,6 +1515,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dinamica_e_Psicologia_de_Grupo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Dinamica_e_Psicologia_de_Grupo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1285,6 +1600,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Empreendedorismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Empreendedorismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Empreendedorismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Engenharia_Economica"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1296,6 +1632,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Engenharia_Economica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Engenharia_de_Produto"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1307,6 +1650,83 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Manutencao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Produto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Engenharia_de_Qualidade"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1315,6 +1735,62 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1332,7 +1808,35 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Engenharia_de_Requisitos"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Avaliacao_de_Desempenho"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Requisitos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Confiabilidade_de_Processos_Produtos_e_Servicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Requisitos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Engenharia_de_Qualidade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Requisitos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Engenharia_de_Requisitos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1365,6 +1869,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Ergonomia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Ergonomia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Estagio_Supervisionado"/>
         <Class IRI="/Multidisciplinar"/>
     </SubClassOf>
@@ -1387,6 +1905,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Estruturas_Algebricas"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1398,6 +1937,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Estruturas_Algebricas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Etica_e_Legislacao"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1406,6 +1952,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Etica_e_Legislacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Etica_e_Legislacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1420,6 +1980,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Evolucao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Evolucao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Evolucao_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Manutencao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Filosofia"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1428,6 +2009,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Filosofia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1457,13 +2045,6 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Analise_Combinatoria"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/Fundamentos_Matematicos"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/temConteudo"/>
-            <Class IRI="/Compiladores"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1512,13 +2093,6 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Fundamentos_Matematicos"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
-            <Class IRI="/Teoria_da_Computacao"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/Fundamentos_Matematicos"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Teoria_dos_Grafos"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1531,6 +2105,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Administracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Administracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Administracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1584,6 +2179,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Compiladores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Computacao_Grafica"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1723,6 +2325,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Fundamentos_de_Computacao"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Teoria_da_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1742,6 +2351,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Avaliacao_de_Desempenho"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Engenharia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Engenharia_de_Produto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Engenharia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Engenharia_de_Qualidade"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1801,13 +2424,6 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Fundamentos_de_Engenharia"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="/temConteudo"/>
-            <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/Fundamentos_de_Linguagens"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1819,6 +2435,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Fundamentos_de_Linguagens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Fundamentos_de_Linguagens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1827,6 +2457,55 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gerencia_de_Projetos_e_de_Configuracao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1989,6 +2668,41 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Impactos_Sociais_da_Tecnologia_de_Software"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -1997,6 +2711,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Impactos_Sociais_da_Tecnologia_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2015,6 +2736,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Interacao_Humano_Computador"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2023,6 +2751,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Interacao_Humano_Computador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Interacao_Humano_Computador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Interacao_Humano_Computador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2037,6 +2786,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Linguagens_Formais_e_Automatos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Logica"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2045,6 +2801,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Logica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Logica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Logica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2091,6 +2868,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Matematica_Aplicada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Matematica_Discreta"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2102,6 +2886,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Matematica_Discreta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Matematica_do_Continuo"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2110,6 +2901,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Matematica_do_Continuo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2128,6 +2926,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Meio_Ambiente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Metodologia_Cientifica"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2139,6 +2944,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Metodologia_Cientifica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Metodos_Formais"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2147,6 +2959,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Basicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Metodos_Formais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Metodos_Formais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2161,6 +2987,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Modelagem_Computacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Design_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelagem_Computacional"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2169,6 +3009,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Design_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Modelagem_Simulacao_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2265,6 +3126,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Multimidia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Nono_Semestre"/>
         <Class IRI="/Fluxo"/>
     </SubClassOf>
@@ -2280,6 +3148,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Normatizacao_e_Certificacao_de_Qualidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Novos_Paradigmas_de_Computacao"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2288,6 +3177,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Novos_Paradigmas_de_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Novos_Paradigmas_de_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2774,6 +3677,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Planejamento_e_Controle_do_Software"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2782,6 +3699,41 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Planejamento_e_Controle_do_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Processo_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2835,6 +3787,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Ergonomia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Estrategias_de_Observacao_e_Experimentacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2919,6 +3878,34 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Praticas_de_Comunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Economia_em_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Praticas_de_Comunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Praticas_de_Comunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Praticas_de_Comunicacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Primeiro_Semestre"/>
         <Class IRI="/Fluxo"/>
     </SubClassOf>
@@ -2934,6 +3921,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Probabilidade_e_Estatistica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Probabilidade_e_Estatistica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Engenharia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Processamento_Distribuido"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2942,6 +3943,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_Distribuido"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_Distribuido"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2956,6 +3971,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Processamento_Paralelo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_Paralelo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Processamento_de_Imagens"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -2964,6 +3993,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_de_Imagens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Processamento_de_Imagens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3028,6 +4071,34 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Design_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Programacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Manutencao_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3142,6 +4213,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Realidade_Virtual"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Redes_de_Computadores"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -3150,6 +4228,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Redes_de_Computadores"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3164,6 +4249,27 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Pratica_Profissional_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Relacoes_Humanas_de_Trabalho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -3175,6 +4281,41 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Design_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Engenharia_de_Requisitos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Requisitos_Arquitetura_e_Desenho_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Qualidade_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Robotica"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -3183,6 +4324,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Robotica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3198,6 +4346,41 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Design_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Seguranca"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Testes_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3220,6 +4403,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Sistemas_Embarcados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_Embarcados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Sistemas_Operacionais"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -3228,6 +4425,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_Operacionais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_Operacionais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3242,6 +4453,20 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Sistemas_de_Tempo_Real"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sistemas_de_Tempo_Real"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Teoria_da_Computacao"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -3253,6 +4478,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Teoria_da_Computacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Teoria_dos_Grafos"/>
         <Class IRI="/Conteudos_Curriculares"/>
     </SubClassOf>
@@ -3261,6 +4493,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Teoria_dos_Grafos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_Matematicos"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3317,6 +4556,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Testes_de_Software"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/temConteudo"/>
+            <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Testes_de_Software"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/temConteudo"/>
             <Class IRI="/Seguranca"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -3340,6 +4586,34 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="/eConteudoDo"/>
             <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Construcao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Fundamentos_de_Computacao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Gerenciamento_de_Configuracao_de_Software"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tratamento_e_Armazenamento_de_Informacao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/eDaAreaDeConhecimento"/>
+            <Class IRI="/Modelos_e_Metodos_de_Engenharia_de_Software"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -7343,9 +8617,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Versionamento</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Abstracao_e_Estruturas_de_Dados</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Especificação de um conjunto de dados e operações que podem ser executadas sobre esses dados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Abstracao_e_Estruturas_de_Dados</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Abstração e estruturas de dados</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Algoritmos_e_Complexidade</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tempo de execução do algoritmo determinado pelas instruções executadas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7380,9 +8664,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 18. Aplicações em casos reais e questões ambientais.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Analise_Combinatoria</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Parte da matemática que estuda métodos e técnicas que permitem resolver problemas relacionados com contagem.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Analise_Combinatoria</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Análise combinatória</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Analise_Especificacao_Verificacao_e_Testes_de_Sistemas</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Envolve as atividades de determinar os objetivos de um software e as restrições associadas a ele.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7430,6 +8724,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 6. Arquitetura de Software: estilos arquiteturais, visões arquiteturais, avaliação de arquiteturas de software.
 7. Desenho de software no contexto de processos de software.
 8. Ferramentas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Arquitetura_e_Organizacao_de_Computadores</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atributos do ponto de vista do programador e unidades operacionais e suas interconexões.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7522,9 +8821,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atividades de representações estudantis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Automacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sistema automático de controle pelo qual os mecanismos verificam seu próprio funcionamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Automacao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Automação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Avaliacao_de_Desempenho</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo feito para mensurar o desempenho e comportamento a partir de critérios comuns.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7563,6 +8872,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 8. Sistemas lineares de equações diferenciais ordinárias de 1ª ordem.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Circuitos_Digitais</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Circuitos eletrônicos que empregam a utilização de sinais elétricos em apenas dois níveis de corrente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Circuitos_Digitais</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Circuitos digitais</Literal>
@@ -7576,6 +8890,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Classificacao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classificação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Compiladores</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Programa que lê um código-fonte escrito em determinada linguagem de programação e cria um código semanticamente equivalente em outra linguagem.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7607,9 +8926,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Não há ementa disponível</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Computacao_Grafica</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Área da computação destinada a geração de imagens em geral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Computacao_Grafica</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Computação gráfica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Computacao_e_Sociedade</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As contribuições da ciência da computação e seus impactos na sociedade.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7634,9 +8963,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 8. Introdução a Confiança e Reputação em Computação em Nuvens e aplicações.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Confiabilidade_de_Processos_Produtos_e_Servicos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Probabilidade de um item em desempenhar adequadamente ao seu propósito especificado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Confiabilidade_de_Processos_Produtos_e_Servicos</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Confiabilidade de processos, produtos e serviços</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Construcao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a criação detalhada de trabalho, significando software através da combinação de codificação, verificação, testes de unidades, testes de integração, e depuração. É dividida em três subáreas: os fundamentos de construção de software,  gerenciamento da construção e as considerações práticas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7687,6 +9026,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Décimo Semestre do curso</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Dependabilidade</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Propriedade que define a capacidade dos sistemas computacionais de prestar um serviço que se pode justificadamente confiar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Dependabilidade</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dependabilidade</Literal>
@@ -7724,6 +9068,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 4. Introdução aos conceitos de Engenharia de Software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Design_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo de definir a arquitetura, componentes, interfaces, e outras características de um sistema ou componente e também o resultado de processo. É dividida em seis subáreas: Os fundamentos de design de software, o conjunto de questões-chave em design de software, estrutura e a arquitetura de software, análise de qualidade do design e avaliação do software, notações de design de software e estratégias de design de software e métodos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Design_de_Software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Design de Software</Literal>
@@ -7732,6 +9081,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Design_de_Software</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Dinamica_e_Psicologia_de_Grupo</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ferramenta de estudo de grupos e também termo geral para processos de grupo.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7744,6 +9098,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Domínio Universitário</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Economia_em_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Economia em Engenharia de Software é sobre a tomada de decisões relacionadas à engenharia de software em um contexto de negócios. É dividida em cinco subáreas: fundamentos econômicos da engenharia de software, economia do ciclo de vida, risco e incerteza, métodos de análise econômica e as considerações práticas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Economia_em_Engenharia_de_Software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Econômia em Engenharia de Software</Literal>
@@ -7754,9 +9113,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Economics</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Empreendedorismo</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo de iniciativa de implementar novos negócios ou mudanças em empresas já existentes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Empreendedorismo</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Empreendedorismo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Engenharia_Economica</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aplicação da análise e síntese econômica ou matemática às decisões de engenharia.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7786,6 +9155,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 18. Análise econômica de produção e geração de energia.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Engenharia_de_Produto</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Responsável por desenvolver o produto e mantê-lo operando.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Engenharia_de_Produto</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engenharia de produto</Literal>
@@ -7805,9 +9179,19 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 5. Ferramentas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Engenharia_de_Qualidade</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ciência exata que busca otimizar os resultados das organizações, utilizando ferramentas que irão permitir a análise quantitativa da qualidade e produtividade dos produtos ou serviços.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Engenharia_de_Qualidade</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engenharia de qualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Engenharia_de_Requisitos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Está relacionada com a elicitação, análise, especificação e validação de requisitos de software. É dividida em oito subáreas: Fundamentos dos requisitos de software, processo de requisitos, elicitação de requisitos, análise de requisitos, especificação de requisitos, validação de requisitos, considerações práticas e ferramentas de requisitos de software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7859,6 +9243,11 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
 6. Meio ambiente e sociedade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Ergonomia</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conjunto de disciplinas que estuda a organização do trabalho no qual existem interações entre seres humanos e máquinas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Ergonomia</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ergonomia</Literal>
@@ -7874,6 +9263,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Estagio_Supervisionado</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estágio Supervisionado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Estrategias_de_Observacao_e_Experimentacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Etapa do método científico, consiste em perceber, ver e não interpretar.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7908,9 +9302,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 4. Projeto e Análise de Algoritmos - Algoritmos Gulosos e Dividir para Conquistar;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Estruturas_Algebricas</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conjunto associado a uma ou mais operações sobre o conjunto que satisfazem certos axiomas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Estruturas_Algebricas</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estruturas algébricas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Etica_e_Legislacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Regras e preceitos de ordem valorativa e moral de um indivíduo.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -7918,9 +9322,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ética e legislação</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Evolucao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo evolutivo contínuo, onde se continua o desenvolvimento do projeto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Evolucao_de_Software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Evolução de software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Filosofia</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Campo do conhecimento que estuda a existência humana.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8050,6 +9464,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 6. Virtualização.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Fundamentos_Matematicos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ajuda os engenheiros de software a compreender uma lógica não ambígua. É dividida em onze subáreas: As definicões, relações e funções, a lógica básica, técnicas de prova, noções básicas de contagem, as arvores e grafos, a probabilidade discreta, máquinas de estado finito, as gramáticas, precisão numérica, acertos e erros, a teoria dos números e estruturas algébricas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Fundamentos_Matematicos</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos Matemáticos</Literal>
@@ -8060,9 +9479,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mathematical Foundations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Fundamentos_de_Administracao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conceitos básicos baseados em uma concepção moderna de gestão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Fundamentos_de_Administracao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos de administração</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Fundamentos_de_Computacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engloba o ambiente de desenvolvimento e operacional no qual o software evolui e executa. É dividida em dezessete subáreas:técnicas de solução de problemas, abstração, fundamentos de programação, noções básicas de linguagem de programação, técnicas e ferramentas de debugação, representação e estrutura de dados, algoritmos e complexidade, conceitos básicos de um sistema, organização computacional, noções básicas de compilador, noções básicas de sistema operacional, bases de dados e gerenciamento de dados, noções básicas de comunicação de rede, computação paralela e distribuída, fatores humanos básicos do usuário, fatores humanos básicos do desenvolvedor e desenvolvimento e manutenção de segurança de software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8075,6 +9504,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos de Computação</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Fundamentos_de_Engenharia</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">É a aplicação de uma abordagem sistemática, disciplinável e quantificável a estruturas, máquinas, produtos, sistemas ou processos. É dividida em sete subáreas: Técnicas experimentais e métodos empíricos, a análise estatística, a medição, design de engenharia,  modelagem, simulação e prototipagem, os padrões e a análise de causa raiz.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Fundamentos_de_Engenharia</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Engineering Foundations</Literal>
@@ -8083,6 +9517,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Fundamentos_de_Engenharia</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fundamentos de Engenharia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Fundamentos_de_Linguagens</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conceitos básicos e elementares de determinada linguagem.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8111,9 +9550,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 7. Ferramentas de apoio a manutenção e evolução de Software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Gerencia_de_Projetos_e_de_Configuracao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Padrão que diz como os documentos devem ser tratados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Gerencia_de_Projetos_e_de_Configuracao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gerência de projetos e de configuração</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Gerenciamento_de_Configuracao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Gerência de Configuração de Software (GCS) é a disciplina de identificar a configuração de software em pontos distintos no tempo com o propósito de sistematicamente controlar modificações à configuração e de manter a integridade e a auditoria da configuração em todas as partes do ciclo de vida do sistema. É dividida em seis subáreas. Gerência do processo de GCS, a identificação de configuração de software, controle de configuração de software, registros de estado de configuração de software, a auditoria de configuração de software e a gerência de liberação e entrega de software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8124,6 +9573,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Gerenciamento_de_Configuracao_de_Software</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Configuration Management</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Gerenciamento_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aponta o gerenciamento e mensuração da engenharia de software. É dividida em seis subáreas: A iniciação e definição de escopo, o planejamento de projeto de software, a aprovação do projeto de software, a revisão e a avaliação, o fechamento e a mensuração da engenharia de software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8150,6 +9604,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 5. Gestão, Sistemas e Normalização da Qualidade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Gestao_de_Conhecimento_estrategica_e_Organizacional</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Método usado na busca de melhoria do desempenho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Gestao_de_Conhecimento_estrategica_e_Organizacional</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gestão de conhecimento, estratégica e organizacional</Literal>
@@ -8173,6 +9632,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <AnnotationProperty IRI="/ementa"/>
         <IRI>/Humanidades_e_Cidadania</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Apresentar os conceitos de humanidades, ciências sociais e cidadania para fomentar a visão crítica e consciência das questões humanísticas, sociais, políticas, econômicas, éticas, e ambientais envolvidas na ação profissional do engenheiro.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Impactos_Sociais_da_Tecnologia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Situação que de alguma forma tem a capacidade de impactar positiva ou negativamente a realidade das pessoas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8231,9 +9695,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 9. Projeto.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Inteligencia_Artificial_e_Computacional</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inteligência computacional é o ramo da inteligência artificial que lida com computação macia. Inteligência artificial é um ramo da ciência da computação que se propõe a elaborar dispositivos que simulem a capacidade humana.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Inteligencia_Artificial_e_Computacional</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inteligência artificial e computacional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Interacao_Humano_Computador</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estudo da interação entre pessoas e computadores.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8350,14 +9824,29 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 3. Fundamentos de programação aplicados ao desenvolvimento de jogos. tópicos avançados em desenvolvimento de jogos, tais como detecção de colisão e inteligência artificial.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Linguagens_Formais_e_Automatos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estudo de modelos matemáticos que possibilitam a especificação e o reconhecimento de linguagens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Linguagens_Formais_e_Automatos</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Linguagens formais e autômatos</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Logica</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Campo de estudo da filosofia que se dedica a entender as relações linguísticas que tornam uma proposição válida ou inválida.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Logica</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lógica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Manutencao_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Uma vez na operação, as anomalias são descobertas, modificação no ambiente operacional e novos requisitos do usuário são expostos. A fase de manutenção do ciclo de vida começa a partir da entrega. É dividida em quatro subáreas: Os fundamentos de manutenção de software, as questões-chave em manutenção em software, o processo de manutenção e as técnicas para manutenção.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8370,9 +9859,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Maintenance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Matematica_Aplicada</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ramo da matemática do qual se trata da aplicação do conhecimento matemático a outros domínios.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Matematica_Aplicada</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Matemática aplicada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Matematica_Discreta</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estudo das estruturas algébricas que são fundamentalmente discretas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8401,6 +9900,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
         <AnnotationProperty IRI="/ementa"/>
         <IRI>/Matematica_Discreta_2</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Não há ementa disponível</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Matematica_do_Continuo</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estudo das estruturas algébricas que são fundamentalmente contínuas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8434,6 +9938,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 7. Ferramentas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Meio_Ambiente</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conjunto de todas as coisas vivas e não-vivas que existem na Terra.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Meio_Ambiente</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meio ambiente</Literal>
@@ -8456,9 +9965,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 7. Ferramentas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Metodologia_Cientifica</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estudo dos métodos ou instrumentos necessários para a elaboração de um trabalho científico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Metodologia_Cientifica</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Metodologia cientifica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Metodos_Formais</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Técnicas baseadas em formalismos matemáticos para a especificação, desenvolvimento e verificação dos sistemas de softwares e hardwares.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8528,9 +10047,19 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 8. Portas paralela e serial e USB.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Modelagem_Computacional</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Área do conhecimento multidisciplinar que trata da aplicação de modelos matemáticos e técnicas da computação à análise, compreensão e estudo da fenomenologia de problemas complexos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Modelagem_Computacional</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modelagem computacional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Modelagem_Simulacao_e_Otimizacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Elaboração de um modelo matemático que traduz, da maneira mais fiel possível, as etapas de um processo como um todo.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8550,6 +10079,11 @@ O Estágio Supervisionado é atividade obrigatória no curso. Para alcançar a s
 3. Técnicas de modelagem de processos.
 4. Como gerir as mudanças e cuidar da qualidade dos processos. 
 5. Automação de processos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Modelos_e_Metodos_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Impõe uma estrutura na engenharia de software com o objetivo de tornar essa atividade sistemática e mais orientada para o sucesso. É dividida em quatro subáreas: A modelagem de software, tipos de modelos, a análise de modelos e os métodos em engenharia de software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8584,6 +10118,11 @@ Além das disciplinas de livre escolha do aluno, contempla também a integraliza
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Multidisciplinar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Multimidia</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Combinação, controlada por computador de pelo menos um tipo de mídia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Multimidia</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Multimídia</Literal>
@@ -8594,9 +10133,19 @@ Além das disciplinas de livre escolha do aluno, contempla também a integraliza
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nono Semestre do curso</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Normatizacao_e_Certificacao_de_Qualidade</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo no qual uma entidade independente avalia determinado produto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Normatizacao_e_Certificacao_de_Qualidade</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Normatização e certificação de qualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Novos_Paradigmas_de_Computacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modelo ou padrão a se seguir dentro do ramo computacional.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8689,9 +10238,19 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
 3. Definição e Caracterização dos Principais Paradigmas de Programação.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Pesquisa_Operacional_e_Otimizacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo no qual se visa obter a melhor solução possível para determinado problema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Pesquisa_Operacional_e_Otimizacao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pesquisa operacional e otimização</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Planejamento_e_Controle_do_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atividade que visa a redução de custos e o aumento da eficiência.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8715,6 +10274,11 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
 7. Princípios de Sistemas Sequenciais;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Pratica_Profissional_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se preocupa com o conhecimento, as habilidades e as atitudes que o engenheiro de software deve possuir para praticar a engenharia de software de maneira profissional, responsável e ética. É dividida em três subáreas: Profissionalismo, psicologia e dinâmicas de grupo e habilidades de comunicação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Pratica_Profissional_de_Engenharia_de_Software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prática Profissional de Engenharia de Software</Literal>
@@ -8723,6 +10287,11 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Pratica_Profissional_de_Engenharia_de_Software</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering Professional Practice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Praticas_de_Comunicacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Método que tem como base agilidade e transparência.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8751,6 +10320,11 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
 7. Exposição dos projetos.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Probabilidade_e_Estatistica</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estudo matemático da quantificação da aleatoriedade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Probabilidade_e_Estatistica</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Probabilidade e estatística</Literal>
@@ -8775,9 +10349,19 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
 10. Teoria da Confiabilidade Estrutural.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Processamento_Distribuido</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sistema que interliga vários nós de processamento de maneira que um processo de grande consumo seja executado no nó mais disponível.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Processamento_Distribuido</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento distribuído</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Processamento_Paralelo</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Forma eficiente do processamento da informação com ênfase na exploração de eventos simultâneos na execução de um software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8785,9 +10369,19 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento paralelo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Processamento_de_Imagens</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Forma de processamento de dados no qual a entrada e saída são imagens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Processamento_de_Imagens</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processamento de imagens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Processo_de_Engenharia_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Trata da definição, implementação, avaliação, mensuração, gerenciamento, alterações e melhora do próprio processo de engenharia de software. É dividida em quatro subáreas: Processo de implementação e mudanças, a definição do processo, a avaliação de processo e mensuração de produto e processo.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8814,6 +10408,11 @@ Núcleo de conteúdo: Lógica de programação, Algoritmos e Estrutura de dados,
 10. Competências necessárias ao engenheiro de software e aspectos organizacionais.
 11. Noções de direitos autorais, propriedade intelectual e certificação profissional na área de Engenharia de Software. 
 12. Código de ética e conduta profissional para engenheiros de software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Programacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Processo de escrita, teste e manutenção de um programa de computador.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8910,6 +10509,11 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
 5. Fundamentos de complexidade computacional, redução entre problemas, classes P e NP, problemas NP-Completos.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Qualidade_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Aborda considerações relativas à qualidade de software que vão além dos processos de ciclo de vida de software. É dividida em três subáreas: Fundamentos da qualidade de software, os processos de gerenciamento da qualidade do software e as considerações práticas relacionadas à qualidade de software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Qualidade_de_Software</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qualidade de Software</Literal>
@@ -8954,9 +10558,19 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quinto Semestre do curso</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Realidade_Virtual</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tecnologia de interface capaz de enganar os sentidos de um usuário, por meio de um ambiente virtual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Realidade_Virtual</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Realidade virtual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Redes_de_Computadores</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grupos de sistemas de computadores e outros dispositivos de hardware de computação que estão ligados entre si através de recursos entre uma ampla gama de usuários.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8964,9 +10578,19 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Redes de computadores</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Relacoes_Humanas_de_Trabalho</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Decorrem da interação entre duas ou mais pessoas em um ambiente de trabalho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Relacoes_Humanas_de_Trabalho</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relações humanas de trabalho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Requisitos_Arquitetura_e_Desenho_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Compreensão do problema, e estudo detalhado dos dados de onde se constroem modelos que serão usados para desenvolver o software.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -8993,6 +10617,11 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
 10. Ferramentas.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Robotica</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ramo educacional e tecnológico que engloba computadores, robôs e computação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Robotica</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Robótica</Literal>
@@ -9001,6 +10630,11 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Segundo_Semestre</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Segundo Semestre do curso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Seguranca</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Percepção ou sensação de se estar protegido de riscos.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -9060,14 +10694,29 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
 7. Diagnóstico e confinamento de faltas; Teste e injeção de faltas; 8. Consenso.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Sistemas_Embarcados</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sistema microprocessado no qual o computador é completamente encapsulado ou dedicado ao dispositivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Sistemas_Embarcados</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sistemas embarcados</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Sistemas_Operacionais</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Coleção de programas que inicializam o hardware do computador.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Sistemas_Operacionais</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sistemas Operacionais</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Sistemas_de_Tempo_Real</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sistema destinado a execução de múltiplas tarefas onde o tempo de resposta a um evento é pré-definido.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -9131,9 +10780,19 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
 7. Princípios de Sistemas Sequenciais;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Teoria_da_Computacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Subcampo da ciência da computação e matemática que busca determinar quais problemas podem ser computados em um dado modelo de computação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Teoria_da_Computacao</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teoria da computação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Teoria_dos_Grafos</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ramo da matemática que estuda as relações entre objetos de um determinado conjunto.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -9164,6 +10823,11 @@ As disciplinas Projeto Integrador de Engenharias são utilizadas de forma a comp
 9. Aspectos de implantação do processo de teste 
 10. Atividades de verificação e validação no contexto das normas e dos modelos de melhoria de processo de software. 
 11. Ferramentas de apoio as atividade de testes de software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Testes_de_Software</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teste de software compõe-se da verificação dinâmica de uma seleção de domínios de execuções normalmente infinito, contra o comportamento esperado. É dividida em cinco subáreas: Fundamentos de testes de software, níveis de teste, técnicas de teste, as mensurações relacionadas aos testes e os processos de testes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -9236,6 +10900,11 @@ O trabalho consiste do desenvolvimento, pelo aluno, de estudo ou projeto de enge
         <AnnotationProperty IRI="/ementa"/>
         <IRI>/Trabalho_de_Conclusao_de_Curso_2</IRI>
         <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atividades e desenvolvimento de projetos, síntese do curso de Engenharia. Deve ser desenvolvida sob a supervisão de um professor, podendo constar de: estagio em laboratório, elaboração de projetos, desenvolvimento e construção de equipamentos, ou estagio em empresas sob a supervisão da Faculdade UnB-Gama.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Tratamento_e_Armazenamento_de_Informacao</IRI>
+        <Literal xml:lang="pt" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Leitura e interpretação de dados de diferentes linguagens.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/ontologies/2018/engenharia_de_software"
+     xml:base="http://www.semanticweb.org/ontologies/2018/Software_Engineering"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/ontologies/2018/engenharia_de_software">
+     ontologyIRI="http://www.semanticweb.org/ontologies/2018/Software_Engineering">
     <Prefix name="" IRI="http://www.semanticweb.org/ontologies/2018/engenharia_de_software"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="es" IRI="http://www.semanticweb.org/ontologies/2018/engenhaira_de_software/"/>
@@ -33,12 +33,16 @@
 Weiller Fernandes Pereira</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering</Literal>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PPC (Pedagogical Course Project) approved in 2011 based on the guidelines of the National Education Council (CNE); In the curriculum guidelines for the Software Engineering courses of the major US engineering and computing associations, such as IEEE-CS and ACM, in the Reference Curricula of Computer Courses of the Brazilian Computer Society SBC and in the book Guide to the Software Engineering Body of Knowledge (SWEEBOK) version 3.0.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:source"/>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Guide to the Software Engineering Body of Knowledge (SWEEBOK) version 3.0.</Literal>
+        <AnnotationProperty IRI="/habilitation"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Graduate</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Software Engineering</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
@@ -48,20 +52,282 @@ Software Engineering is an area of ​​computing focused on the specification,
 
 Mission of the bachelor&apos;s degree course in Software Engineering: Promote the teaching, research and extension in Software Engineering to train citizens with professional skills that meet the aspirations of society in relation to software products. In short, these citizens will have the ability to build software applying the principles of engineering, that is, with a systematic, disciplined and quantifiable approach to defining, developing and maintaining software.</Literal>
     </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="/goals"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The overall objective of the course is to train software engineers who can apply the principles of engineering to build software by applying a systematic, disciplined and quantifiable approach to software development and maintenance.
+
+Among the specific objectives of the Bachelor&apos;s degree in Software Engineering are the following:
+
+a) To train professionals with high scientific and technological qualifications, ethical and socially responsible, who are able to contribute to the development of Brazilian society, committed to the solution of social and environmental problems;
+
+b) To stimulate the questioning and the innovative ideas, to make the future engineer aware of the responsibility with the society when exercising the profession and to guide him in the permanent necessity of professional improvement;
+
+c) To implement pedagogical practices on the part of the teaching staff that stimulate the autonomy, the creativity, the critical spirit, the entrepreneurship and the ethical conduct in the formation of the undergraduate students, in order to form entrepreneurs;
+
+d) To stimulate proactive student attitudes in the pursuit of knowledge, developing autonomy and self-learning capacity;
+
+e) To enable the student to identify the problem to be solved, to seek the solution, to test it, to evaluate it and to develop it, through a versatile professional formation and through interdisciplinary and extracurricular experiences;
+
+f) Promote university extension with community participation as a way of disseminating the scientific and technological research developed throughout the course;
+
+g) Provide a healthy, cooperative and constructive environment where teachers and students are committed to the quality of the course;
+
+h) Ensure a general scientific profile with a background in the subjects of the basic cycle (mathematics, physics and computation), solid training in the professional disciplines (specific to the production of software), with humanistic, social and
+environmental;
+
+i) Encourage and promote the search for research and scientific research;
+
+j) To enable the student to participate in the construction of his / her training profile;
+
+k) To guarantee the offer of optional subjects according to a previous planning and of complementary complementary activities in the areas of specific interest of the student and, thus, to allow that this participates in the construction of its profile of formation;
+
+l) To efficiently implement evaluation processes and self-assessment of the course, the teaching-learning process and the desired professional profile;
+
+m) Encourage the interaction of teachers and students with government, industry and other teaching and research institutions.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="/performance"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The graduate of the Software Engineering course must have the potential to act in the design and development of software, as well as in the management of projects, processes and products, working in both private companies and the public sector and academia.
+
+The insertion of the Software Engineering professional can take place with the following professional segments: In industry and in companies where the production of software is an end activity or medium activity, especially companies / industries involving embedded software. In organs or entities of the direct, indirect public administration or with autonomous social entities. In the research and development of software engineering solutions with universities and scientific and technological research entities.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="/professional_profile"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The trained Software Engineer must be able to apply a systematic, disciplined and quantifiable approach to software development and maintenance. This Software Engineer must have the skills to team design, build, and manage the development of software products in a context of technological developments.</Literal>
+    </Annotation>
     <Declaration>
-        <Class IRI="/Simulation_Engineering"/>
+        <Class IRI="/Graphs"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Testing"/>
+        <Class IRI="/Measurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Nature_and_Role_of_Professional_Societies"/>
+        <Class IRI="/Design_a_Solution_Search_Strategy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Modeling_Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Divisibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Management_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Practical_Considerations_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Categories_of_Software_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/High_Level_Programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Management_of_the_SCM_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Structural_Descriptions_Static_View"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Security_Guidelines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Proposals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Component-Based_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reviewing_and_Evaluating_Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Time_Value_of_Money"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Operations_on_Data_Structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Design_Patterns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Analysis_of_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Data_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Models_and_Quality_Characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Deviations_and_Waivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Practical_Considerations_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Need_for_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Codes_of_Ethics_and_Professional_Conduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/User_Interface_Design_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Prototyping_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Culture_and_Ethics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Minimum_Acceptable_Rate_of_Return"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Maintenance_Fundamentals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Implementation_of_Measurement_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/System_Definition_Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Change_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Algorithmic_Design_Strategies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Continuous_and_Staged_Software_Process_Ratings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Attributes_of_Algorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Formulating_the_Real_Problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Professionalism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Emergent_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Life_Cycle_Economics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Offshoring_and_Outsourcing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Economics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/The_Compilation_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Architectural_Structures_and_Viewpoints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evaluate_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Requirements_Tools"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Direct_and_Derived_Measures"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Class IRI="/Types_of_Data_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Decisions_under_Uncertainty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Analyzing_for_Consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Steps_Involved_in_Engineering_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Code_Based_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GUI_Builders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Information_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Business_Case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Preconditions_Postconditions_and_Invariants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Assessment_and_Improvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Process_Support_and_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Optimization_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Process_Quality_and_Improvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Languages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Presentation_Skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Maintenance_Cost_Estimation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Localization_and_Internationalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Analyze_the_Problem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Monitor_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Conceptual_Modeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Investment_Decisions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Digital_Logic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Memory_System_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Goals_Estimates_and_Plans"/>
@@ -70,406 +336,430 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Levels_of_Abstraction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Process_Definition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Presentation_Skills"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Employment_Contracts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Localization_and_Internationalization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Maintenance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_Assessment_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Types_of_Data_Structure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/The_Compilation_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Emergent_Properties"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Valuation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Structure"/>
+        <Class IRI="/Selecting_and_Combining_Techniques"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Problem_Solving_Using_Programs"/>
+        <Class IRI="/Computing_Foundations"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Empirical_Methods_and_Experimental_Techniques"/>
+        <Class IRI="/Maintenance_Activities"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Process_Support_and_Management"/>
+        <Class IRI="/Teaching_activities"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Constructing_for_Verification"/>
+        <Class IRI="/Construction_with_Reuse"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Definition_of_a_Software_Requirement"/>
+        <Class IRI="/Metaphors_and_Conceptual_Models"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Need_for_Maintenance"/>
+        <Class IRI="/Iterative_Nature_of_the_Requirements_Process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/System_Definition_Document"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Documentation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Process_for_the_Review_and_Revision_of_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Functional_and_Nonfunctional_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Relation_and_Function"/>
+        <Class IRI="/Interpretation_and_Compilation"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Implementing_Software_Changes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Planning_Horizon"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Management_Tools"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Modeling"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Test_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Data_Persistence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Deviations_and_Waivers"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Overview_of_a_Computer_System"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Replacement_and_Retirement_Decisions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Models_and_Quality_Characteristics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Maintenance_Fundamentals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Debugging_Tools_and_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Component-Based_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Runtime_Configuration_and_Internationalization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Codes_of_Ethics_and_Professional_Conduct"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Establish_and_Sustain_Measurement_Commitment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Minimizing_Complexity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Fundamentals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Abstraction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/High_Level_Programming_Languages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Dealing_with_Uncertainty_and_Ambiguity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Techniques_Based_on_the_Nature_of_the_Application"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/General_User_Interface_Design_Principles"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Security"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Virtual_Private_Network"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Planning_for_SCM"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Monitor_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Modeling_Principles"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Types_of_Errors"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Quality_Attributes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Management_of_the_SCM_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Compiler_Basics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Standards"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Team_and_Group_Communication"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Programming_Fundamentals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Maintenance_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Design_a_Solution_Search_Strategy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Levels_of_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Quality_Analysis_and_Evaluation_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Practical_Considerations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Requirements_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Analysis_of_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Prototyping_Engineering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Architectural_Structures_and_Viewpoints"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Parallel_and_Distributed_Computing_Overview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Proposals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Business_Case"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Configuration_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Structure_Modeling"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Professionalism"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/User_Interface_Design_Issues"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Control_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Reviewing_and_Evaluating_Performance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Practical_Considerations_Quality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Testing_Fundamentals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Types_of_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Structural_Descriptions_Static_View"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Software_Life_Cycles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Encapsulation"/>
+        <Class IRI="/Anticipating_Change"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Test_Related_Measures"/>
+        <Class IRI="/Empirical_Methods_and_Experimental_Techniques"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Configuration_Auditing"/>
+        <ObjectProperty IRI="/hasKnowledgeArea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Configuration_Management_Tools"/>
+        <Class IRI="/Techniques_Based_on_the_Nature_of_the_Application"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Algorithmic_Analysis_Strategies"/>
+        <Class IRI="/Effectiveness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Practical_Considerations_Process"/>
+        <Class IRI="/Planning_for_SCM"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Grammar-Based_Input_Processing"/>
+        <Class IRI="/Definition_of_a_Software_Requirement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Predicate_Logic"/>
+        <Class IRI="/Software_Engineering_Management_Tools"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Root_Cause_Analysis"/>
+        <Class IRI="/Software_Engineering_Management"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/API_Design_and_Use"/>
+        <Class IRI="/Construction_Design"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Input_Domain_Based_Techniques"/>
+        <Class IRI="/Software_Quality_Fundamentals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Graphs"/>
+        <Class IRI="/Mathematical_Foundations"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
+        <Class IRI="/Functional_and_Nonfunctional_Requirements"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Analyzing_for_Completeness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Process_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Life_Cycle_Economics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Architectural_Styles"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Properties_and_Expression_of_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Evaluate_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Dealing_with_Multicultural_Environments"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Algebraic_Structures"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Digital_Logic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Propositional_Logic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Build_Security_into_Software_Engineering_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Code_Based_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Estimation_Techniques"/>
+        <Class IRI="/Definition_of_Problem_Solving"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:creator"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Analyze_the_Problem"/>
+        <Class IRI="/Types_of_Models"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Design_Strategies_and_Methods"/>
+        <Class IRI="/Software_Process_Assessment_Methods"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Continuous_and_Staged_Software_Process_Ratings"/>
+        <Class IRI="/Software_Construction_Fundamentals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Divisibility"/>
+        <Class IRI="/Software_Requirements"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Categories_of_Maintenance"/>
+        <Class IRI="/Overview_of_a_Computer_System"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Preconditions_Postconditions_and_Invariants"/>
+        <Class IRI="/Practical_Considerations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Abstraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evaluation_of_the_Program_Under_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Organizational_Context_for_SCM"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Algorithms_and_Complexity"/>
+        <Class IRI="/Finance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Maintenance_Cost_Estimation"/>
+        <Class IRI="/Software_Maintenance_Tools"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/GUI_Builders"/>
+        <Class IRI="/Control_Process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Knowledge_Area"/>
+        <Class IRI="/Types_of_Errors"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/hasContent"/>
+        <Class IRI="/Quality_Analysis_and_Evaluation_Techniques"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Analyzing_for_Consistency"/>
+        <Class IRI="/Quality_Attributes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Traceability"/>
+        <Class IRI="/Assertions_Design_by_Contract_and_Defensive_Programming"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Debugging_Techniques"/>
+        <Class IRI="/Compiler_Basics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Team_and_Group_Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Virtual_Private_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Engineering_Foundations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Initiation_and_Scope_Definition"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:rights"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Types_of_Network"/>
+        <Class IRI="/Programming_Language_Overview"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Number_Theory"/>
+        <Class IRI="/Resource_Allocation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Coding"/>
+        <Class IRI="/General_Strategies"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Quality_Improvement"/>
+        <Class IRI="/Algorithms_and_Complexity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Trees"/>
+        <Class IRI="/Engineering_Design"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Portfolio"/>
+        <Class IRI="/Individual_Cognition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Computer_Organization_Overview"/>
+        <Class IRI="/Practical_Considerations_Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reading_Understanding_and_Summarizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_and_Product_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Proof_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Main_Issues_in_Distributed_Computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/General_Design_Concepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Feasibility_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Root_Cause_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Accounting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Basic_Concept_of_a_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Interacting_with_Stakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Closure_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Testing_Related_Terminology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Structure_Modeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Identifying_Items_to_Be_Controlled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Practical_Considerations_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Graphs_and_Trees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Multiple_Attribute_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pedagogical_Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Price_and_Pricing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Requirements_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Supervised_internship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Communication_Skills"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Basic_User_Human_Factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Data_Structure_and_Representation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Status_Accounting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Inflation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Determining_Closure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Integration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Relationship_of_Testing_to_Other_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Propositional_Logic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Finite_State_Machines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Addressing_Uncertainty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Curriculum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tasks_of_an_Operating_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Compiler_or_Interpreter_Overview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Categories_of_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Negotiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Grammars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Distribution_of_Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Requirements_Fundamentals"/>
     </Declaration>
     <Declaration>
         <Class IRI="/The_Internet"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Requirements_Security"/>
+        <Class IRI="/Majority_of_Maintenance_Costs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Process_Tools"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/habilitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Tools"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:relation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Prioritization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Techniques_for_Conducting_Root_Cause_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Formal_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Statistical_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/The_Central_Processing_Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Plan_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Portfolio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Formal_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dealing_with_Multicultural_Environments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Quality_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Key_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Defect_Characterization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Safety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Product_Life_Cycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Management_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Traceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Determination_and_Negotiation_of_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Input_Domain_Based_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Accreditation_Certification_and_Licensing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Improvement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Types_of_Network"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/professional_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Debugging_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Process_for_the_Review_and_Revision_of_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Core_Professional_Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Parameterization_and_Generics"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Verification_e_Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Language_Recognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Minimizing_Complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/User_Interface_Design_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Input_and_Output"/>
     </Declaration>
     <Declaration>
         <Class IRI="/The_Good_Enough_Principle"/>
@@ -478,445 +768,523 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Families_of_Programs_and_Frameworks"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Optimization_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Tasks_of_an_Operating_System"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Operating_Systems_Classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Product_Life_Cycle"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Safety"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Formal_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Determining_Closure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Relationship_of_Testing_to_Other_Activities"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Parameterization_and_Generics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Building"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:subject"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Maintenance_Processes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Definition_of_Problem_Solving"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Accreditation_Certification_and_Licensing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Executable_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/System_Requirements_and_Software_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Usage_Based_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Profiling_Performance_Analysis_and_Slicing_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Graphs_and_Trees"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Plan_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Dealing_with_Problem_Complexity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Construction_Fundamentals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_and_Product_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Reverse_Engineering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Selecting_and_Combining_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/General_Strategies"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Cost_Benefit_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Practical_Considerations_Construction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Set_Relations_Functions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Defect_Characterization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Life_Cycle_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Operating_System_Abstractions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Productivity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Engineering_Foundations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/The_Design_of_Information_Presentation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/In_Process_Audits_of_a_Software_Baseline"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Design_Patterns"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Negotiation"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:relation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_Testing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Emergent_System_Properties"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Perform_the_Measurement_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Project"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Effort_Schedule_and_Cost_Estimation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Closure_Activities"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Categories_of_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Engineering_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Resource_Allocation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Testing_Related_Terminology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Basic_Concept_of_a_System"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Technical_Issues"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Basic_Developer_Human_Factors"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Maintenance_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Management_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Input_and_Output"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Writing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Security_Guidelines"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Initiation_and_Scope_Definition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Reading_Understanding_and_Summarizing"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:description"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Configuration_Status_Accounting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Operating_Systems_Overview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Metaphors_and_Conceptual_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Minimum_Acceptable_Rate_of_Return"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Culture_and_Ethics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_Adaptation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/General_Design_Concepts"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Identifying_Items_to_Be_Controlled"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Maintenance_Activities"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Determination_and_Negotiation_of_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Interacting_with_Stakeholders"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Feasibility_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Tools"/>
+        <Class IRI="/Risk_and_Uncertainty"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Time_Value_of_Money"/>
+        <Class IRI="/Set_Relations_Functions"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Grammars"/>
+        <Class IRI="/Software_Building"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Concurrency"/>
+        <Class IRI="/Constructing_for_Verification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Main_Issues_in_Distributed_Computing"/>
+        <Class IRI="/Cost_Benefit_Analysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Proof_Techniques"/>
+        <Class IRI="/Software_Testing_Fundamentals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/The_Central_Processing_Unit"/>
+        <Class IRI="/Software_Life_Cycle_Models"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Basic_User_Human_Factors"/>
+        <Class IRI="/Trees"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Change_Management"/>
+        <Class IRI="/Usage_Based_Techniques"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Engineering_Design_in_Engineering_Education"/>
+        <Class IRI="/Operating_Systems_Overview"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Design_Process"/>
+        <Class IRI="/Technical_Issues"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Communication_Skills"/>
+        <Class IRI="/Profiling_Performance_Analysis_and_Slicing_Tools"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Attributes_of_Algorithms"/>
+        <Class IRI="/Relation_and_Function"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Design_Tools"/>
+        <Class IRI="/Testing_Tool_Support"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Techniques_for_Conducting_Root_Cause_Analysis"/>
+        <Class IRI="/Core_Specific_Content"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Data_Structure_and_Representation"/>
+        <Class IRI="/Executable_Models"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Algorithmic_Design_Strategies"/>
+        <Class IRI="/Elicitation_Techniques"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Finite_State_Machines"/>
+        <Class IRI="/Software_Testing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Information_Models"/>
+        <Class IRI="/Maintenance_Processes"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Parallel_and_Distributed_Computing"/>
+        <Class IRI="/Standards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Data_Persistence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_for_Reuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Activities_of_student_representations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dealing_with_Problem_Complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/System_Requirements_and_Software_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Computer_Organization_Overview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Effort_Schedule_and_Cost_Estimation"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dcterms:license"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Object-Oriented_Design"/>
+        <Class IRI="/Nature_and_Role_of_Professional_Societies"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Majority_of_Maintenance_Costs"/>
+        <Class IRI="/Software_Design_Notations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Prototyping_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Management_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Database_Basics_and_Data_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Overview_of_Algorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Alternate_Abstractions"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Behavioral_Descriptions_Dynamic_View"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Construction_Methods_for_Distributed_Software"/>
+        <Class IRI="/Cost_and_Costing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Construction_Planning"/>
+        <Class IRI="/Software_Testing_Security"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Ecosystems"/>
+        <Class IRI="/Software_Construction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Requirements_Validation"/>
+        <Class IRI="/Basic_Developer_Human_Factors"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Quality_Management"/>
+        <Class IRI="/Constraints_and_Guidance_for_the_SCM_Process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Reliability_and_Validity"/>
+        <Class IRI="/Requirements_Sources"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Database_Management_Systems"/>
+        <Class IRI="/Reporting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Evolution_of_Software"/>
+        <Class IRI="/Model_Validation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Process_Infrastructure"/>
+        <Class IRI="/User_Input_and_Output"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Test_Levels"/>
+        <Class IRI="/Algorithmic_Analysis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Retirement"/>
+        <Class IRI="/Operating_Systems_Basics"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Unit_Testing_Tools"/>
+        <Class IRI="/Perform_the_Measurement_Process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Language_Recognition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Analyzing_for_Correctness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Assurance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Syntax_and_Semantics_of_Programming_Languages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Basics_of_Counting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Return_on_Investment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Data_Structure_Overview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Economic_Impact_of_Software"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Test_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Control_and_Handling_of_Events"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Design_Principles"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Concepts_of_Correlation_and_Regression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Performance_Analysis_and_Tuning"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Techniques_for_Maintenance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Hierarchy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Numerical_Precision_Accuracy_and_Errors"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Formal_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Product_and_Process_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/System_Requirements_Specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Architectural_Design_and_Requirements_Allocation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Review_and_Evaluation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Methods_of_Proving_Theorems"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Problem_Solving_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Verification_e_Validation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Based_on_the_Software_Engineers_Intuition_and_Experience"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Economic_Analysis_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Cash_Flow"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Statistical_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Models_and_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Termination_Decisions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Decision_Making_Process"/>
+        <Class IRI="/Migration"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Constructing_Heterogeneous_Systems"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Operating_Systems_Basics"/>
+        <Class IRI="/Decision_Making_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Cash_Flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Performance_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Network_Communication_Basics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Core_Basic_Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Agile_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Acquisition_and_Supplier_Contract_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Maintenance_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Hierarchy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Product_and_Process_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/For_Profit_Decision_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Measuring_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Controlling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Maintenance_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Object-Oriented_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Construction_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/State-Based_and_Table-Driven_Construction_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requesting_Evaluating_and_Approving_Software_Changes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Context_of_Software_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/System_Requirements_Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Functional_Configuration_Audit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Entity_and_Schema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Definitions_and_Terminology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Nature_of_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Performance_Analysis_and_Tuning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mobility_and_Exchange_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Key_Issues_in_Software_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Assurance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Emergent_System_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Analyzing_for_Correctness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Test_Levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Planning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Assessing_Reliability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Methods_for_Distributed_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Architecture_Design_Decisions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Group_Dynamics_and_Psychology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Ecosystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Return_on_Investment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Professional_Practice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Data_Mining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Unit_Testing_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Measurement_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Assessment_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Parallel_and_Distributed_Computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Concurrency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Test_First_Programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Determining_Satisfaction_of_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Engineering_Design_in_Engineering_Education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Surveillance_of_Software_Configuration_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Test_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Based_on_the_Software_Engineers_Intuition_and_Experience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Construction_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Objectives_of_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Difference_between_Parallel_and_Distributed_Computing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/The_Design_of_Information_Presentation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:identifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Process_Actors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Acceptance_Tests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reliability_and_Validity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Implementation_of_Plans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Process_Planning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Managing_Construction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Numerical_Precision_Accuracy_and_Errors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Program_Comprehension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Infrastructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Database_Management_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Economic_Analysis_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Adaptation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering_Models_and_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Syntax_and_Semantics_of_Programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Properties_of_Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Basics_of_Counting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tasks_of_DBMS_Packages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Review_and_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Writing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Decisions_under_Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Operating_Systems_Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Coding"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/The_Programming_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Status_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Unit_of_Analysis_Population_and_Sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Reviews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Design_as_a_Problem_Solving_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Operating_System_Abstractions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Retirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Categories_of_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Systems_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Extension_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Productivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Syntax_Semantics_and_Pragmatics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Quality_of_Measurement_Results"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Physical_Configuration_Audit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Error_Handling_Exception_Handling_and_Fault_Tolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Multidisciplinary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Programming_Paradigms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Fault_Based_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Internet_of_Things"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Function-Oriented_Structured_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Return_on_Capital_Employed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Basic_Logic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/In_Process_Audits_of_a_Software_Baseline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Termination_Decisions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evolution_of_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Improvement_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_in_Life_Cycle_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Comments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Course_Completion_Work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Practical_Considerations_Requirements"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Project_Life_Cycle"/>
@@ -925,676 +1293,169 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Software_Release_Management_and_Delivery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/User_Interface_Design_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Physical_Configuration_Audit"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Key_Issues"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_in_Life_Cycle_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Management_Issues"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Function-Oriented_Structured_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Quality_of_Measurement_Results"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Acceptance_Tests"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Observational_Study"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Database_Basics_and_Data_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Cost_and_Costing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Risk_and_Uncertainty"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Prototyping_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Prime_Number_GCD"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Configuration_Status_Information"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Prioritization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Design_as_a_Problem_Solving_Activity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/User_Input_and_Output"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Cost_Effectiveness_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Reviews"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Modeling_Engineering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_for_Reuse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Surveillance_of_Software_Configuration_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Basic_Logic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Accounting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Elicitation_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Construction"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:identifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Acquisition_and_Supplier_Contract_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Distribution_of_Components"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Compiler_or_Interpreter_Overview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Performance_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Data_Structure-Centered_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Reporting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Testing_Tool_Support"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Network_Communication_Basics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Measuring_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Testing_Security"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Controlling"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Decisions_under_Risk"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Inflation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Unit_of_Analysis_Population_and_Sample"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Model_Validation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/The_Programming_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Entity_and_Schema"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Individual_Cognition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Internet_of_Things"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Multiple_Attribute_Evaluation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Object_Oriented_Runtime_Issues"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Set_Operations"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Elicitation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Requirements_Fundamentals"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Product"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Group_Dynamics_and_Psychology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Key_Issues_in_Software_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Practical_Considerations_Testing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Tasks_of_DBMS_Packages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Maintenance_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Design_Security"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/SCM_Plan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Functional_Configuration_Audit"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Managing_Construction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Configuration_Control"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Test_First_Programming"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Process_Planning"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/For_Profit_Decision_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Price_and_Pricing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Objectives_of_Testing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Break_Even_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Overview_of_Algorithms"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_Assessment_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Implementation_of_Plans"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Algorithmic_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Nature_of_Maintenance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Process_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Reengineering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Constraints_and_Guidance_for_the_SCM_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Release_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_Measurement_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Professional_Practice"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Properties_of_Set"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Memory_System_Organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Model_Based_Testing_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Measurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Addressing_Uncertainty"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Anticipating_Change"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Conceptual_Modeling"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Robustness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Integration"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:type"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Structure_and_Architecture"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Difference_between_Parallel_and_Distributed_Computing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Investment_Decisions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Database_Query_Language"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Process_Actors"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Syntax_Semantics_and_Pragmatics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Rings"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Declarative_vs_Imperative_Programming_Languages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_with_Reuse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Tradeoff_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Error_and_Exception_Handling_and_Fault_Tolerance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_Quality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Interaction_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Test_Activities"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Low_Level_Programming_Languages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Quantifiable_Requirements"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Interpretation_and_Compilation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Key_Issues_in_Software_Maintenance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/The_Design_of_User_Interaction_Modalities"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Iterative_Nature_of_the_Requirements_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Debugging_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Basic_Network_Components"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Value_and_Costs_of_Quality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Attributes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Program_Comprehension"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Discrete_Probability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Evaluation_of_the_Program_Under_Test"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Comments"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Computer_Organization"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Error_Handling_Exception_Handling_and_Fault_Tolerance"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dcterms:provenance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Programming_Paradigms"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Designed_Experiment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Nature_and_Role_of_Software_Engineering_Standards"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Library"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Prototyping"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Fault_Based_Techniques"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Programming_Language_Overview"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Mathematical_Foundations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Plan_the_Measurement_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Taxation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Determine_Deliverables"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Modeling_Simulation_and_Prototyping"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Reuse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Effectiveness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Concurrency_Primitives"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Quality_Management_Processes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Testing_Tools"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Digital_Systems"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Project_Planning"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Practical_Considerations_Requirements"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Earned_Value_Management"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:language"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_Languages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Development_Environments"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Organizational_Context_for_SCM"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Assertions_Design_by_Contract_and_Defensive_Programming"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Finance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Evaluation_of_the_Tests_Performed"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Economics"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Operations_on_Data_Structures"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Data_Mining"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Configuration_Status_Reporting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Process_Improvement_Models"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Steps_Involved_in_Engineering_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Systems_Engineering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Context_of_Software_Design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Formulating_the_Real_Problem"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Dynamics_of_Working_in_Teams_Groups"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Return_on_Capital_Employed"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Middleware"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Sources"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Categories_of_Software_Processes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Agile_Methods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Standards_in_Construction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Construction_Technologies"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Alternate_Abstractions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Architecture_Design_Decisions"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Platform_Standards"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Migration"/>
+        <Class IRI="/API_Design_and_Use"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Parallel_and_Distributed_Computing_Models"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Construction_Tools"/>
+        <Class IRI="/Programming_Language_Basics"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Design_Notations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Analysis"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dcterms:alternative"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dcterms:available"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/The_Target_of_the_Test"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Information_Modeling"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Engineering_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Assessing_Reliability"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Requirements_Specification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Data_Management"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Friction_Free_Economy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Legal_Issues"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Computing_Foundations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Efficiency"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Implementation_of_Measurement_Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Computer_Expression_of_Data"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Configuration_Identification"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:source"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Offshoring_and_Outsourcing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Error_Messages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Measures"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Retrospective_Study"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:format"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Decisions_under_Uncertainty"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="/Software_Design_Fundamentals"/>
+        <Class IRI="/Software_Quality"/>
     </Declaration>
     <Declaration>
         <Class IRI="/User_Interface_Design"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Platform_Standards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Status_Reporting"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Heuristic_Methods"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Definitions_and_Terminology"/>
+        <Class IRI="/Reverse_Engineering"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Determining_Satisfaction_of_Requirements"/>
+        <Class IRI="/Parallel_and_Distributed_Computing_Overview"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Programming_Language_Basics"/>
+        <Class IRI="/Estimation_Techniques"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/State-Based_and_Table-Driven_Construction_Techniques"/>
+        <Class IRI="/Build_Security_into_Software_Engineering_Process"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Design_Quality_Analysis_and_Evaluation"/>
+        <Class IRI="/Analyzing_for_Completeness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Networking_Protocols_and_Standards"/>
+        <Class IRI="/Predicate_Logic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Requesting_Evaluating_and_Approving_Software_Changes"/>
+        <Class IRI="/Architectural_Styles"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Reviews_and_Audits"/>
+        <Class IRI="/Software_Engineering_Measurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Process_Quality_and_Improvement"/>
+        <Class IRI="/Grammar-Based_Input_Processing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Construction_Security"/>
+        <Class IRI="/Standards_in_Construction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Process_Assessment_and_Improvement"/>
+        <Class IRI="/The_Target_of_the_Test"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Risk_Management"/>
+        <Class IRI="/Test_Related_Measures"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Closure"/>
+        <Class IRI="/Prototyping"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Secure_Software_Development_and_Maintenance"/>
+        <Class IRI="/Set_Operations"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Requirements_Specification"/>
+        <Class IRI="/Encapsulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Test_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Information_Modeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Identification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Auditing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Value_and_Costs_of_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tradeoff_Analysis"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Software_Project_Enactment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Classification"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:provenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Activities_of_Social_Action_Citizenship_and_Environment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Construction_Technologies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Retrospective_Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SCM_Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Error_Messages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reengineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Interaction_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Properties_and_Expression_of_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Number_Theory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Professional_Practice_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Elicitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Legal_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Release_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Algebraic_Structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Strategies_and_Methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Research_Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Interaction_and_Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dynamics_of_Working_in_Teams_Groups"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Behavioral_Modeling"/>
@@ -1603,13 +1464,265 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Requirements_Tracing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Quality"/>
+        <Class IRI="/Middleware"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Interaction_and_Presentation"/>
+        <Class IRI="/Closure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Program"/>
+        <Class IRI="/Secure_Software_Development_and_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Break_Even_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Knowledge_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Quality_Analysis_and_Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Requirements_Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Computer_Expression_of_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Configuration_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Determine_Deliverables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Problem_Solving_Using_Programs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Control_and_Handling_of_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Networking_Protocols_and_Standards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Quantifiable_Requirements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Database_Query_Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reviews_and_Audits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Declarative_vs_Imperative_Programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Taxation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/goals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Concepts_of_Correlation_and_Regression"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Integrator_Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Design_Fundamentals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Risk_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Key_Issues_in_Software_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Computer_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Robustness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Low_Level_Programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Process_Models"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Requirements_Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Friction_Free_Economy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Planning_Horizon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Economic_Impact_of_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Algorithmic_Analysis_Strategies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Employment_Contracts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Basic_Network_Components"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:alternative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Replacement_and_Retirement_Decisions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Model_Based_Testing_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dcterms:available"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Architectural_Design_and_Requirements_Allocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Object_Oriented_Runtime_Issues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Nature_and_Role_of_Software_Engineering_Standards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/The_Design_of_User_Interaction_Modalities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Efficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Problem_Solving_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Error_and_Exception_Handling_and_Fault_Tolerance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Methods_of_Proving_Theorems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Techniques_for_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Levels_of_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/General_User_Interface_Design_Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Plan_the_Measurement_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Data_Structure_Overview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Modeling_Simulation_and_Prototyping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Debugging_Tools"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Data_Structure-Centered_Design"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Process_Definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Establish_and_Sustain_Measurement_Commitment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Cost_Effectiveness_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Designed_Experiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Prime_Number_GCD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Dealing_with_Uncertainty_and_Ambiguity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Debugging_Tools_and_Techniques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Simulation_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Discrete_Probability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Programming_Fundamentals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Test_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Runtime_Configuration_and_Internationalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evaluation_of_the_Tests_Performed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Structure_and_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Observational_Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Digital_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Testing_Tools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Modeling_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Project_Planning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Concurrency_Primitives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Software_Quality_Management_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Development_Environments"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="/API_Design_and_Use"/>
@@ -1630,6 +1743,14 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Accreditation_Certification_and_Licensing"/>
         <Class IRI="/Professionalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Activities_of_Social_Action_Citizenship_and_Environment"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Activities_of_student_representations"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Addressing_Uncertainty"/>
@@ -1840,6 +1961,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Computing_Foundations"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Professional_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Concepts_of_Correlation_and_Regression"/>
         <Class IRI="/Statistical_Analysis"/>
     </SubClassOf>
@@ -1932,6 +2060,123 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Core_Basic_Content"/>
+        <Class IRI="/Curriculum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Basic_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Engineering_Foundations"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Basic_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Mathematical_Foundations"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Basic_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Engineering_Economics"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Basic_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Engineering_Professional_Practice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Professional_Content"/>
+        <Class IRI="/Curriculum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Professional_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Computing_Foundations"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Professional_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Construction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Professional_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Maintenance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Professional_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Testing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <Class IRI="/Curriculum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Configuration_Management"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Design"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Engineering_Management"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Engineering_Models_and_Methods"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Engineering_Process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Quality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Core_Specific_Content"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasKnowledgeArea"/>
+            <Class IRI="/Software_Requirements"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Cost_Benefit_Analysis"/>
         <Class IRI="/Economic_Analysis_Methods"/>
     </SubClassOf>
@@ -1942,6 +2187,14 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Cost_and_Costing"/>
         <Class IRI="/Life_Cycle_Economics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Course_Completion_Work"/>
+        <Class IRI="/Multidisciplinary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Curriculum"/>
+        <Class IRI="/Pedagogical_Project"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Data_Management"/>
@@ -2176,6 +2429,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Engineering_Foundations"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Basic_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Entity_and_Schema"/>
         <Class IRI="/Database_Basics_and_Data_Management"/>
     </SubClassOf>
@@ -2220,6 +2480,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Construction_Technologies"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Extension_Activities"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Families_of_Programs_and_Frameworks"/>
         <Class IRI="/Software_Structure_and_Architecture"/>
     </SubClassOf>
@@ -2254,6 +2518,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Formulating_the_Real_Problem"/>
         <Class IRI="/Problem_Solving_Techniques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
+        <Class IRI="/Curriculum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Friction_Free_Economy"/>
@@ -2372,6 +2640,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Practical_Considerations_Construction"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Integrator_Project"/>
+        <Class IRI="/Multidisciplinary"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Interacting_with_Stakeholders"/>
         <Class IRI="/Group_Dynamics_and_Psychology"/>
     </SubClassOf>
@@ -2484,6 +2756,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Mathematical_Foundations"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Basic_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Measurement"/>
         <Class IRI="/Engineering_Foundations"/>
     </SubClassOf>
@@ -2524,6 +2803,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Economic_Analysis_Methods"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Mobility_and_Exchange_Activities"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Model_Based_Testing_Techniques"/>
         <Class IRI="/Test_Techniques"/>
     </SubClassOf>
@@ -2554,6 +2837,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Monitor_Process"/>
         <Class IRI="/Software_Project_Enactment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Multidisciplinary"/>
+        <Class IRI="/Curriculum"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Multiple_Attribute_Evaluation"/>
@@ -2662,6 +2949,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Parameterization_and_Generics"/>
         <Class IRI="/Construction_Technologies"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pedagogical_Project"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Perform_the_Measurement_Process"/>
@@ -2794,6 +3085,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Productivity"/>
         <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Professional_Practice_Activities"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Professionalism"/>
@@ -2964,6 +3259,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Software_Requirements"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Research_Activities"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Resource_Allocation"/>
         <Class IRI="/Software_Project_Planning"/>
     </SubClassOf>
@@ -3076,6 +3375,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Software_Configuration_Management"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Software_Configuration_Management_Tools"/>
         <Class IRI="/Software_Configuration_Management"/>
     </SubClassOf>
@@ -3096,6 +3402,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Software_Construction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Professional_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Software_Construction_Fundamentals"/>
         <Class IRI="/Software_Construction"/>
     </SubClassOf>
@@ -3110,6 +3423,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Software_Design"/>
         <Class IRI="/Knowledge_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Software_Design"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Design_Fundamentals"/>
@@ -3156,12 +3476,26 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Software_Engineering_Economics"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Basic_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
         <Class IRI="/Software_Engineering_Economics"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Engineering_Management"/>
         <Class IRI="/Knowledge_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Software_Engineering_Management"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Engineering_Management_Tools"/>
@@ -3180,8 +3514,22 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Software_Engineering_Models_and_Methods"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Software_Engineering_Process"/>
         <Class IRI="/Knowledge_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Software_Engineering_Process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Engineering_Process_Tools"/>
@@ -3190,6 +3538,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Software_Engineering_Professional_Practice"/>
         <Class IRI="/Knowledge_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Software_Engineering_Professional_Practice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Basic_Content"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Functional_Configuration_Audit"/>
@@ -3214,6 +3569,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Software_Maintenance"/>
         <Class IRI="/Knowledge_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Software_Maintenance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Professional_Content"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Maintenance_Fundamentals"/>
@@ -3288,6 +3650,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Software_Quality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Software_Quality_Assurance"/>
         <Class IRI="/Software_Quality_Management_Processes"/>
     </SubClassOf>
@@ -3332,6 +3701,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Knowledge_Area"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Software_Requirements"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Specific_Content"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Software_Requirements_Fundamentals"/>
         <Class IRI="/Software_Requirements"/>
     </SubClassOf>
@@ -3366,6 +3742,13 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Software_Testing"/>
         <Class IRI="/Knowledge_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Software_Testing"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+            <Class IRI="/Core_Professional_Content"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Software_Testing_Fundamentals"/>
@@ -3412,6 +3795,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Types_of_Models"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/Supervised_internship"/>
+        <Class IRI="/Multidisciplinary"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/Surveillance_of_Software_Configuration_Management"/>
         <Class IRI="/Management_of_the_SCM_Process"/>
     </SubClassOf>
@@ -3450,6 +3837,10 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
     <SubClassOf>
         <Class IRI="/Taxation"/>
         <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Teaching_activities"/>
+        <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/Team_and_Group_Communication"/>
@@ -3620,10 +4011,139 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Communication_Skills"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="/API_Design_and_Use"/>
+        <Class IRI="/Assertions_Design_by_Contract_and_Defensive_Programming"/>
+        <Class IRI="/Concurrency_Primitives"/>
+        <Class IRI="/Constructing_Heterogeneous_Systems"/>
+        <Class IRI="/Construction_Methods_for_Distributed_Software"/>
+        <Class IRI="/Error_Handling_Exception_Handling_and_Fault_Tolerance"/>
+        <Class IRI="/Executable_Models"/>
+        <Class IRI="/Grammar-Based_Input_Processing"/>
+        <Class IRI="/Middleware"/>
+        <Class IRI="/Object_Oriented_Runtime_Issues"/>
+        <Class IRI="/Parameterization_and_Generics"/>
+        <Class IRI="/Performance_Analysis_and_Tuning"/>
+        <Class IRI="/Platform_Standards"/>
+        <Class IRI="/Runtime_Configuration_and_Internationalization"/>
+        <Class IRI="/State-Based_and_Table-Driven_Construction_Techniques"/>
+        <Class IRI="/Test_First_Programming"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Abstraction"/>
+        <Class IRI="/Algorithms_and_Complexity"/>
+        <Class IRI="/Basic_Concept_of_a_System"/>
+        <Class IRI="/Basic_Developer_Human_Factors"/>
+        <Class IRI="/Basic_User_Human_Factors"/>
+        <Class IRI="/Compiler_Basics"/>
+        <Class IRI="/Computer_Organization"/>
+        <Class IRI="/Data_Structure_and_Representation"/>
+        <Class IRI="/Database_Basics_and_Data_Management"/>
+        <Class IRI="/Debugging_Tools_and_Techniques"/>
+        <Class IRI="/Network_Communication_Basics"/>
+        <Class IRI="/Operating_Systems_Basics"/>
+        <Class IRI="/Parallel_and_Distributed_Computing"/>
+        <Class IRI="/Problem_Solving_Techniques"/>
+        <Class IRI="/Programming_Fundamentals"/>
+        <Class IRI="/Programming_Language_Basics"/>
+        <Class IRI="/Secure_Software_Development_and_Maintenance"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="/Acceptance_Tests"/>
         <Class IRI="/Model_Validation"/>
         <Class IRI="/Prototyping"/>
         <Class IRI="/Requirements_Reviews"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Accounting"/>
+        <Class IRI="/Cash_Flow"/>
+        <Class IRI="/Controlling"/>
+        <Class IRI="/Decision_Making_Process"/>
+        <Class IRI="/Effectiveness"/>
+        <Class IRI="/Efficiency"/>
+        <Class IRI="/Finance"/>
+        <Class IRI="/Inflation"/>
+        <Class IRI="/Productivity"/>
+        <Class IRI="/Taxation"/>
+        <Class IRI="/Time_Value_of_Money"/>
+        <Class IRI="/Valuation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Accreditation_Certification_and_Licensing"/>
+        <Class IRI="/Codes_of_Ethics_and_Professional_Conduct"/>
+        <Class IRI="/Documentation"/>
+        <Class IRI="/Economic_Impact_of_Software"/>
+        <Class IRI="/Employment_Contracts"/>
+        <Class IRI="/Legal_Issues"/>
+        <Class IRI="/Nature_and_Role_of_Professional_Societies"/>
+        <Class IRI="/Nature_and_Role_of_Software_Engineering_Standards"/>
+        <Class IRI="/Tradeoff_Analysis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Addressing_Uncertainty"/>
+        <Class IRI="/Decisions_under_Risk"/>
+        <Class IRI="/Decisions_under_Uncertainty"/>
+        <Class IRI="/Estimation_Techniques"/>
+        <Class IRI="/Goals_Estimates_and_Plans"/>
+        <Class IRI="/Prioritization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Agile_Methods"/>
+        <Class IRI="/Formal_Methods"/>
+        <Class IRI="/Heuristic_Methods"/>
+        <Class IRI="/Prototyping_Methods"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Algebraic_Structures"/>
+        <Class IRI="/Basic_Logic"/>
+        <Class IRI="/Basics_of_Counting"/>
+        <Class IRI="/Discrete_Probability"/>
+        <Class IRI="/Finite_State_Machines"/>
+        <Class IRI="/Grammars"/>
+        <Class IRI="/Graphs_and_Trees"/>
+        <Class IRI="/Number_Theory"/>
+        <Class IRI="/Numerical_Precision_Accuracy_and_Errors"/>
+        <Class IRI="/Proof_Techniques"/>
+        <Class IRI="/Set_Relations_Functions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Algorithmic_Analysis"/>
+        <Class IRI="/Algorithmic_Analysis_Strategies"/>
+        <Class IRI="/Algorithmic_Design_Strategies"/>
+        <Class IRI="/Attributes_of_Algorithms"/>
+        <Class IRI="/Overview_of_Algorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Alternate_Abstractions"/>
+        <Class IRI="/Encapsulation"/>
+        <Class IRI="/Hierarchy"/>
+        <Class IRI="/Levels_of_Abstraction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Analysis_of_Models"/>
+        <Class IRI="/Modeling"/>
+        <Class IRI="/Software_Engineering_Methods"/>
+        <Class IRI="/Types_of_Models"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Analyze_the_Problem"/>
+        <Class IRI="/Definition_of_Problem_Solving"/>
+        <Class IRI="/Design_a_Solution_Search_Strategy"/>
+        <Class IRI="/Formulating_the_Real_Problem"/>
+        <Class IRI="/Problem_Solving_Using_Programs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Analyzing_for_Completeness"/>
+        <Class IRI="/Analyzing_for_Consistency"/>
+        <Class IRI="/Analyzing_for_Correctness"/>
+        <Class IRI="/Interaction_Analysis"/>
+        <Class IRI="/Traceability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Anticipating_Change"/>
+        <Class IRI="/Constructing_for_Verification"/>
+        <Class IRI="/Minimizing_Complexity"/>
+        <Class IRI="/Reuse"/>
+        <Class IRI="/Standards_in_Construction"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="/Architectural_Design_and_Requirements_Allocation"/>
@@ -3633,11 +4153,267 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Requirements_Negotiation"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="/Architectural_Structures_and_Viewpoints"/>
+        <Class IRI="/Architectural_Styles"/>
+        <Class IRI="/Architecture_Design_Decisions"/>
+        <Class IRI="/Design_Patterns"/>
+        <Class IRI="/Families_of_Programs_and_Frameworks"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Assessing_Reliability"/>
+        <Class IRI="/Direct_and_Derived_Measures"/>
+        <Class IRI="/Levels_of_Measurement"/>
+        <Class IRI="/Reliability_and_Validity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Based_on_the_Software_Engineers_Intuition_and_Experience"/>
+        <Class IRI="/Code_Based_Techniques"/>
+        <Class IRI="/Fault_Based_Techniques"/>
+        <Class IRI="/Input_Domain_Based_Techniques"/>
+        <Class IRI="/Model_Based_Testing_Techniques"/>
+        <Class IRI="/Selecting_and_Combining_Techniques"/>
+        <Class IRI="/Techniques_Based_on_the_Nature_of_the_Application"/>
+        <Class IRI="/Usage_Based_Techniques"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Basic_Network_Components"/>
+        <Class IRI="/Internet_of_Things"/>
+        <Class IRI="/Networking_Protocols_and_Standards"/>
+        <Class IRI="/The_Internet"/>
+        <Class IRI="/Types_of_Network"/>
+        <Class IRI="/Virtual_Private_Network"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Behavioral_Descriptions_Dynamic_View"/>
+        <Class IRI="/Structural_Descriptions_Static_View"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Behavioral_Modeling"/>
+        <Class IRI="/Information_Modeling"/>
+        <Class IRI="/Structure_Modeling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Break_Even_Analysis"/>
+        <Class IRI="/Business_Case"/>
+        <Class IRI="/Cost_Benefit_Analysis"/>
+        <Class IRI="/Cost_Effectiveness_Analysis"/>
+        <Class IRI="/For_Profit_Decision_Analysis"/>
+        <Class IRI="/Minimum_Acceptable_Rate_of_Return"/>
+        <Class IRI="/Multiple_Attribute_Evaluation"/>
+        <Class IRI="/Optimization_Analysis"/>
+        <Class IRI="/Return_on_Capital_Employed"/>
+        <Class IRI="/Return_on_Investment"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Build_Security_into_Software_Engineering_Process"/>
+        <Class IRI="/Software_Construction_Security"/>
+        <Class IRI="/Software_Design_Security"/>
+        <Class IRI="/Software_Requirements_Security"/>
+        <Class IRI="/Software_Security_Guidelines"/>
+        <Class IRI="/Software_Testing_Security"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Categories_of_Maintenance"/>
+        <Class IRI="/Definitions_and_Terminology"/>
+        <Class IRI="/Evolution_of_Software"/>
+        <Class IRI="/Majority_of_Maintenance_Costs"/>
+        <Class IRI="/Nature_of_Maintenance"/>
+        <Class IRI="/Need_for_Maintenance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Categories_of_Software_Processes"/>
+        <Class IRI="/Practical_Considerations_Process"/>
+        <Class IRI="/Software_Life_Cycle_Models"/>
+        <Class IRI="/Software_Process_Adaptation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Categories_of_Tools"/>
+        <Class IRI="/Testing_Tool_Support"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="/Change_Management"/>
         <Class IRI="/Iterative_Nature_of_the_Requirements_Process"/>
         <Class IRI="/Measuring_Requirements"/>
         <Class IRI="/Requirements_Attributes"/>
         <Class IRI="/Requirements_Tracing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Closure"/>
+        <Class IRI="/Initiation_and_Scope_Definition"/>
+        <Class IRI="/Review_and_Evaluation"/>
+        <Class IRI="/Software_Engineering_Management_Tools"/>
+        <Class IRI="/Software_Engineering_Measurement"/>
+        <Class IRI="/Software_Project_Enactment"/>
+        <Class IRI="/Software_Project_Planning"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Closure_Activities"/>
+        <Class IRI="/Determining_Closure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Coding"/>
+        <Class IRI="/Construction_Design"/>
+        <Class IRI="/Construction_Languages"/>
+        <Class IRI="/Construction_Quality"/>
+        <Class IRI="/Construction_Testing"/>
+        <Class IRI="/Construction_for_Reuse"/>
+        <Class IRI="/Construction_with_Reuse"/>
+        <Class IRI="/Integration"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Comments"/>
+        <Class IRI="/Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Communication_Skills"/>
+        <Class IRI="/Group_Dynamics_and_Psychology"/>
+        <Class IRI="/Professionalism"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Compiler_or_Interpreter_Overview"/>
+        <Class IRI="/Interpretation_and_Compilation"/>
+        <Class IRI="/The_Compilation_Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Component-Based_Design"/>
+        <Class IRI="/Data_Structure-Centered_Design"/>
+        <Class IRI="/Function-Oriented_Structured_Design"/>
+        <Class IRI="/General_Strategies"/>
+        <Class IRI="/Object-Oriented_Design"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Computer_Expression_of_Data"/>
+        <Class IRI="/Computer_Organization_Overview"/>
+        <Class IRI="/Digital_Logic"/>
+        <Class IRI="/Digital_Systems"/>
+        <Class IRI="/Input_and_Output"/>
+        <Class IRI="/Memory_System_Organization"/>
+        <Class IRI="/The_Central_Processing_Unit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Computing_Foundations"/>
+        <Class IRI="/Engineering_Foundations"/>
+        <Class IRI="/Mathematical_Foundations"/>
+        <Class IRI="/Software_Configuration_Management"/>
+        <Class IRI="/Software_Construction"/>
+        <Class IRI="/Software_Design"/>
+        <Class IRI="/Software_Engineering_Economics"/>
+        <Class IRI="/Software_Engineering_Management"/>
+        <Class IRI="/Software_Engineering_Models_and_Methods"/>
+        <Class IRI="/Software_Engineering_Process"/>
+        <Class IRI="/Software_Engineering_Professional_Practice"/>
+        <Class IRI="/Software_Maintenance"/>
+        <Class IRI="/Software_Quality"/>
+        <Class IRI="/Software_Requirements"/>
+        <Class IRI="/Software_Testing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Concepts_of_Correlation_and_Regression"/>
+        <Class IRI="/Unit_of_Analysis_Population_and_Sample"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Concurrency"/>
+        <Class IRI="/Control_and_Handling_of_Events"/>
+        <Class IRI="/Data_Persistence"/>
+        <Class IRI="/Distribution_of_Components"/>
+        <Class IRI="/Error_and_Exception_Handling_and_Fault_Tolerance"/>
+        <Class IRI="/Interaction_and_Presentation"/>
+        <Class IRI="/Security"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Constraints_and_Guidance_for_the_SCM_Process"/>
+        <Class IRI="/Organizational_Context_for_SCM"/>
+        <Class IRI="/Planning_for_SCM"/>
+        <Class IRI="/SCM_Plan"/>
+        <Class IRI="/Surveillance_of_Software_Configuration_Management"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Construction_Measurement"/>
+        <Class IRI="/Construction_Planning"/>
+        <Class IRI="/Construction_in_Life_Cycle_Models"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Construction_Technologies"/>
+        <Class IRI="/Managing_Construction"/>
+        <Class IRI="/Practical_Considerations_Construction"/>
+        <Class IRI="/Software_Construction_Fundamentals"/>
+        <Class IRI="/Software_Construction_Tools"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Context_of_Software_Design"/>
+        <Class IRI="/General_Design_Concepts"/>
+        <Class IRI="/Software_Design_Principles"/>
+        <Class IRI="/Software_Design_Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Continuous_and_Staged_Software_Process_Ratings"/>
+        <Class IRI="/Software_Process_Assessment_Methods"/>
+        <Class IRI="/Software_Process_Assessment_Models"/>
+        <Class IRI="/Software_Process_Improvement_Models"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Control_Process"/>
+        <Class IRI="/Implementation_of_Measurement_Process"/>
+        <Class IRI="/Implementation_of_Plans"/>
+        <Class IRI="/Monitor_Process"/>
+        <Class IRI="/Reporting"/>
+        <Class IRI="/Software_Acquisition_and_Supplier_Contract_Management"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Cost_and_Costing"/>
+        <Class IRI="/Earned_Value_Management"/>
+        <Class IRI="/Investment_Decisions"/>
+        <Class IRI="/Performance_Measurement"/>
+        <Class IRI="/Planning_Horizon"/>
+        <Class IRI="/Portfolio"/>
+        <Class IRI="/Price_and_Pricing"/>
+        <Class IRI="/Product"/>
+        <Class IRI="/Product_Life_Cycle"/>
+        <Class IRI="/Program"/>
+        <Class IRI="/Project"/>
+        <Class IRI="/Project_Life_Cycle"/>
+        <Class IRI="/Proposals"/>
+        <Class IRI="/Replacement_and_Retirement_Decisions"/>
+        <Class IRI="/Termination_Decisions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Data_Management"/>
+        <Class IRI="/Data_Mining"/>
+        <Class IRI="/Database_Management_Systems"/>
+        <Class IRI="/Database_Query_Language"/>
+        <Class IRI="/Entity_and_Schema"/>
+        <Class IRI="/Tasks_of_DBMS_Packages"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Data_Structure_Overview"/>
+        <Class IRI="/Operations_on_Data_Structures"/>
+        <Class IRI="/Types_of_Data_Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Dealing_with_Multicultural_Environments"/>
+        <Class IRI="/Dealing_with_Problem_Complexity"/>
+        <Class IRI="/Dealing_with_Uncertainty_and_Ambiguity"/>
+        <Class IRI="/Dynamics_of_Working_in_Teams_Groups"/>
+        <Class IRI="/Individual_Cognition"/>
+        <Class IRI="/Interacting_with_Stakeholders"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Debugging_Techniques"/>
+        <Class IRI="/Debugging_Tools"/>
+        <Class IRI="/Types_of_Errors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Declarative_vs_Imperative_Programming_Languages"/>
+        <Class IRI="/High_Level_Programming_Languages"/>
+        <Class IRI="/Low_Level_Programming_Languages"/>
+        <Class IRI="/Programming_Language_Overview"/>
+        <Class IRI="/Syntax_and_Semantics_of_Programming_Languages"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Defect_Characterization"/>
+        <Class IRI="/Software_Quality_Management_Techniques"/>
+        <Class IRI="/Software_Quality_Measurement"/>
+        <Class IRI="/Software_Quality_Requirements"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="/Definition_of_a_Software_Requirement"/>
@@ -3648,8 +4424,216 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/System_Requirements_and_Software_Requirements"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="/Design_as_a_Problem_Solving_Activity"/>
+        <Class IRI="/Engineering_Design_in_Engineering_Education"/>
+        <Class IRI="/Steps_Involved_in_Engineering_Design"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Designed_Experiment"/>
+        <Class IRI="/Observational_Study"/>
+        <Class IRI="/Retrospective_Study"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Determination_and_Negotiation_of_Requirements"/>
+        <Class IRI="/Feasibility_Analysis"/>
+        <Class IRI="/Process_for_the_Review_and_Revision_of_Requirements"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Determine_Deliverables"/>
+        <Class IRI="/Effort_Schedule_and_Cost_Estimation"/>
+        <Class IRI="/Plan_Management"/>
+        <Class IRI="/Process_Planning"/>
+        <Class IRI="/Quality_Management"/>
+        <Class IRI="/Resource_Allocation"/>
+        <Class IRI="/Risk_Management"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Determining_Satisfaction_of_Requirements"/>
+        <Class IRI="/Reviewing_and_Evaluating_Performance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Development_Environments"/>
+        <Class IRI="/GUI_Builders"/>
+        <Class IRI="/Profiling_Performance_Analysis_and_Slicing_Tools"/>
+        <Class IRI="/Unit_Testing_Tools"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Deviations_and_Waivers"/>
+        <Class IRI="/Implementing_Software_Changes"/>
+        <Class IRI="/Requesting_Evaluating_and_Approving_Software_Changes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Difference_between_Parallel_and_Distributed_Computing"/>
+        <Class IRI="/Main_Issues_in_Distributed_Computing"/>
+        <Class IRI="/Parallel_and_Distributed_Computing_Models"/>
+        <Class IRI="/Parallel_and_Distributed_Computing_Overview"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Divisibility"/>
+        <Class IRI="/Prime_Number_GCD"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Economic_Analysis_Methods"/>
+        <Class IRI="/Life_Cycle_Economics"/>
+        <Class IRI="/Practical_Considerations"/>
+        <Class IRI="/Risk_and_Uncertainty"/>
+        <Class IRI="/Software_Engineering_Economics_Fundamentals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Ecosystems"/>
+        <Class IRI="/Friction_Free_Economy"/>
+        <Class IRI="/Offshoring_and_Outsourcing"/>
+        <Class IRI="/The_Good_Enough_Principle"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="/Elicitation_Techniques"/>
         <Class IRI="/Requirements_Sources"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Emergent_System_Properties"/>
+        <Class IRI="/Overview_of_a_Computer_System"/>
+        <Class IRI="/Systems_Engineering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Empirical_Methods_and_Experimental_Techniques"/>
+        <Class IRI="/Engineering_Design"/>
+        <Class IRI="/Measurement"/>
+        <Class IRI="/Modeling_Simulation_and_Prototyping"/>
+        <Class IRI="/Root_Cause_Analysis"/>
+        <Class IRI="/Standards"/>
+        <Class IRI="/Statistical_Analysis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Error_Messages"/>
+        <Class IRI="/Software_Robustness"/>
+        <Class IRI="/User_Input_and_Output"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Establish_and_Sustain_Measurement_Commitment"/>
+        <Class IRI="/Evaluate_Measurement"/>
+        <Class IRI="/Perform_the_Measurement_Process"/>
+        <Class IRI="/Plan_the_Measurement_Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Evaluation_of_the_Program_Under_Test"/>
+        <Class IRI="/Evaluation_of_the_Tests_Performed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/General_User_Interface_Design_Principles"/>
+        <Class IRI="/Localization_and_Internationalization"/>
+        <Class IRI="/Metaphors_and_Conceptual_Models"/>
+        <Class IRI="/The_Design_of_Information_Presentation"/>
+        <Class IRI="/The_Design_of_User_Interaction_Modalities"/>
+        <Class IRI="/User_Interface_Design_Issues"/>
+        <Class IRI="/User_Interface_Design_Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Graphs"/>
+        <Class IRI="/Trees"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Group"/>
+        <Class IRI="/Rings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Identifying_Items_to_Be_Controlled"/>
+        <Class IRI="/Software_Library"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/In_Process_Audits_of_a_Software_Baseline"/>
+        <Class IRI="/Software_Functional_Configuration_Audit"/>
+        <Class IRI="/Software_Physical_Configuration_Audit"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Key_Issues"/>
+        <Class IRI="/Relationship_of_Testing_to_Other_Activities"/>
+        <Class IRI="/Testing_Related_Terminology"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Key_Issues_in_Software_Design"/>
+        <Class IRI="/Software_Design_Fundamentals"/>
+        <Class IRI="/Software_Design_Notations"/>
+        <Class IRI="/Software_Design_Quality_Analysis_and_Evaluation"/>
+        <Class IRI="/Software_Design_Strategies_and_Methods"/>
+        <Class IRI="/Software_Design_Tools"/>
+        <Class IRI="/Software_Structure_and_Architecture"/>
+        <Class IRI="/User_Interface_Design"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Key_Issues_in_Software_Maintenance"/>
+        <Class IRI="/Maintenance_Process"/>
+        <Class IRI="/Software_Maintenance_Fundamentals"/>
+        <Class IRI="/Software_Maintenance_Tools"/>
+        <Class IRI="/Techniques_for_Maintenance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Maintenance_Activities"/>
+        <Class IRI="/Maintenance_Processes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Maintenance_Cost_Estimation"/>
+        <Class IRI="/Management_Issues"/>
+        <Class IRI="/Software_Maintenance_Measurement"/>
+        <Class IRI="/Technical_Issues"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Management_of_the_SCM_Process"/>
+        <Class IRI="/Software_Configuration_Auditing"/>
+        <Class IRI="/Software_Configuration_Control"/>
+        <Class IRI="/Software_Configuration_Identification"/>
+        <Class IRI="/Software_Configuration_Management_Tools"/>
+        <Class IRI="/Software_Configuration_Status_Accounting"/>
+        <Class IRI="/Software_Release_Management_and_Delivery"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Measures"/>
+        <Class IRI="/Quality_Analysis_and_Evaluation_Techniques"/>
+        <Class IRI="/Quality_Attributes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Migration"/>
+        <Class IRI="/Program_Comprehension"/>
+        <Class IRI="/Reengineering"/>
+        <Class IRI="/Retirement"/>
+        <Class IRI="/Reverse_Engineering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Modeling_Engineering"/>
+        <Class IRI="/Prototyping_Engineering"/>
+        <Class IRI="/Simulation_Engineering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Modeling_Principles"/>
+        <Class IRI="/Preconditions_Postconditions_and_Invariants"/>
+        <Class IRI="/Properties_and_Expression_of_Models"/>
+        <Class IRI="/Syntax_Semantics_and_Pragmatics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Models_and_Quality_Characteristics"/>
+        <Class IRI="/Software_Engineering_Culture_and_Ethics"/>
+        <Class IRI="/Software_Quality_Improvement"/>
+        <Class IRI="/Software_Safety"/>
+        <Class IRI="/Value_and_Costs_of_Quality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Objectives_of_Testing"/>
+        <Class IRI="/The_Target_of_the_Test"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Operating_System_Abstractions"/>
+        <Class IRI="/Operating_Systems_Classification"/>
+        <Class IRI="/Operating_Systems_Overview"/>
+        <Class IRI="/Tasks_of_an_Operating_System"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Pedagogical_Project"/>
+        <Class IRI="/Software_Engineering"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Practical_Considerations_Quality"/>
+        <Class IRI="/Software_Quality_Fundamentals"/>
+        <Class IRI="/Software_Quality_Management_Processes"/>
+        <Class IRI="/Software_Quality_Tools"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="/Practical_Considerations_Requirements"/>
@@ -3662,16 +4646,85 @@ Mission of the bachelor&apos;s degree course in Software Engineering: Promote th
         <Class IRI="/Software_Requirements_Tools"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="/Practical_Considerations_Testing"/>
+        <Class IRI="/Test_Activities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Predicate_Logic"/>
+        <Class IRI="/Propositional_Logic"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Presentation_Skills"/>
+        <Class IRI="/Reading_Understanding_and_Summarizing"/>
+        <Class IRI="/Team_and_Group_Communication"/>
+        <Class IRI="/Writing"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="/Process_Actors"/>
         <Class IRI="/Process_Models"/>
         <Class IRI="/Process_Quality_and_Improvement"/>
         <Class IRI="/Process_Support_and_Management"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="/Programming_Paradigms"/>
+        <Class IRI="/The_Programming_Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Properties_of_Set"/>
+        <Class IRI="/Relation_and_Function"/>
+        <Class IRI="/Set_Operations"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Quality_of_Measurement_Results"/>
+        <Class IRI="/Software_Information_Models"/>
+        <Class IRI="/Software_Process_Measurement_Techniques"/>
+        <Class IRI="/Software_Process_and_Product_Measurement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Reviews_and_Audits"/>
+        <Class IRI="/Software_Quality_Assurance"/>
+        <Class IRI="/Verification_e_Validation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Software_Building"/>
+        <Class IRI="/Software_Release_Management"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Software_Configuration_Status_Information"/>
+        <Class IRI="/Software_Configuration_Status_Reporting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Software_Engineering_Process_Tools"/>
+        <Class IRI="/Software_Life_Cycles"/>
+        <Class IRI="/Software_Measurement"/>
+        <Class IRI="/Software_Process_Assessment_and_Improvement"/>
+        <Class IRI="/Software_Process_Definition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Software_Process_Infrastructure"/>
+        <Class IRI="/Software_Process_Management"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="/Software_Requirements_Specification"/>
         <Class IRI="/System_Definition_Document"/>
         <Class IRI="/System_Requirements_Specification"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Software_Testing_Fundamentals"/>
+        <Class IRI="/Software_Testing_Tools"/>
+        <Class IRI="/Test_Levels"/>
+        <Class IRI="/Test_Process"/>
+        <Class IRI="/Test_Related_Measures"/>
+        <Class IRI="/Test_Techniques"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/hasKnowledgeArea"/>
+        <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+    </InverseObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="/hasKnowledgeArea"/>
+        <ObjectProperty IRI="/isKnowledgeAreaOf"/>
+    </DisjointObjectProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>dc:contributor</AbbreviatedIRI>
@@ -3996,6 +5049,26 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Accreditation_Certification_and_Licensing</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Accreditation, Certification, and Licensing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Activities_of_Social_Action_Citizenship_and_Environment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participation in programs or NGOs related to social action, exercise of citizenship and defense of the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Activities_of_Social_Action_Citizenship_and_Environment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Activities of social action, citizenship and environment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Activities_of_student_representations</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Effective participation in the Academic Center and Engineering Academic Directory, student representation in collegiate bodies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Activities_of_student_representations</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Activities of student representations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -4373,6 +5446,42 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Controlling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Core_Basic_Content</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Required by opinion CNE / CES 136 of 2012 (Curricular Guidelines for Graduation in Computing).
+
+Content Core: Scientific and Technological Methodology, Communication and Expression, Graphic Expression, Mathematics, Physics, Production, Innovation, Administration, Economics, Environmental Sciences, Humanities, Social Sciences, Citizenship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Core_Basic_Content</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Core Basic Content (BC)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Core_Professional_Content</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Disciplines with basic vocational content that allow to reach the basic elements of the professional profile of the egress.
+
+Content Core: Programming Logic, Algorithms and Data Structure, Digital Circuits, Computing, Programming Language, Database.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Core_Professional_Content</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Core Professional Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Core_Specific_Content</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Courses addressing the fundamentals and specific topics of Software Engineering, as well as other specific contents aimed at the development of specific or complementary skills and abilities in the area of programming, product and software process
+
+Content Core: Specific disciplines for software engineering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Core_Specific_Content</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Core Specific Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Cost_Benefit_Analysis</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cost-Benefit Analysis</Literal>
@@ -4386,6 +5495,23 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Cost_and_Costing</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cost and Costing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Course_Completion_Work</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Completion of course work that can be done individually or in double, demonstrating the ability of both teamwork of participants, as well as synthesis, integration and deepening of the knowledge acquired throughout the course. The performance is verified through standardized document and public defense before an examining bank.
+
+The work consists of the development, by the student, of a study or engineering project that allows the integrated application of knowledge related to the course. In its development, the methodology, content of the topic, written documentation and oral presentation should be observed. The TCC aims to provide students with the ability to solve and (or) investigate problem (s) in Software Engineering in a global and objective way, implying in an improvement of their ability to prepare a technical document and its ability to express oral in public.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Course_Completion_Work</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Course Completion Work 1 and 2 (CBT)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Curriculum</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Curriculum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -4733,6 +5859,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Executable Models</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Extension_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Courses in the technical or business management area, foreign language courses, extension projects with the community Institutional Program of Extension Scholarships (PIBEX), Continuous Action Extension Projects (PEAC), participation in Engineering Week;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Extension_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Extension Activities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Families_of_Programs_and_Frameworks</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Families of Programs and Frameworks</Literal>
@@ -4776,6 +5912,18 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Formulating_the_Real_Problem</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Formulating the Real Problem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Free_Module_and_Complementary_and_Extension_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The disciplines that constitute complementary training and free training enable the student to be co-responsible for the construction of his / her curriculum, with training in his or her area of ​​greatest interest, and not only a generalized theoretical and practical training. Free training, disciplines categorized as free module, consists of activities / disciplines developed by the student based on their personal interests, which are not part of the activities of the basic cycle, nor of the professional, complementary / optional or integrative. They can be taken at any of the University&apos;s campuses.
+
+In addition to the subjects of free choice of the student, it also contemplates the completion of complementary and extension activities such as: scientific initiation, multidisciplinary projects, participation in events, participation in a junior company, etc. All these programs provide for paid scholarships; proof of participation as a volunteer, in addition to credits in free module.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Free_Module_and_Complementary_and_Extension_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Free Module (ML) and Complementary and Extension Activities (ACEx)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -4921,6 +6069,18 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Integration</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Integration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Integrator_Project</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Engineering Integrator Project disciplines allow the student body to present to the student body problem-based project methodology encompassing aspects of teamwork, communication and expression, synthesis and integration skills, notions of entrepreneurship, social responsibility and the environment.
+
+The Engineering Integrator Project disciplines are used in a way that complements the inclusion of Core Core contents and implements throughout the course a project-based learning methodology, allowing the student an understanding of scientific and technological methodology, communication and graphic expression, among other knowledges. In the dynamics of these disciplines, it is expected that the students of the various courses work together for a project that contemplates several areas. For this reason, it is important that these disciplines are viewed as essential activities and are provided with adequate resources to accommodate the teams that will work separately.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Integrator_Project</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Integrator Project</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5113,6 +6273,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Minimum Acceptable Rate of Return</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Mobility_and_Exchange_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Permanent exchange with national and international institutions and companies;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Mobility_and_Exchange_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mobility and exchange activities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Model_Based_Testing_Techniques</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Model-Based Testing Techniques</Literal>
@@ -5151,6 +6321,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Monitor_Process</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Monitor Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Multidisciplinary</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Projetos Multidisciplinares, ou seja, há a participação de outros cursos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Multidisciplinary</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Multidisciplinary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5286,6 +6466,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Parameterization_and_Generics</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Parameterization and Generics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Pedagogical_Project</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PPC (Pedagogical Course Project) approved in 2011 based on the guidelines of the National Education Council (CNE); In the curriculum guidelines for the Software Engineering courses of the major US engineering and computing associations, such as IEEE-CS and ACM, in the Reference Curricula of Computer Courses of the Brazilian Computer Society SBC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Pedagogical_Project</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pedagogical Project of the Bachelor&apos;s Degree in Software Engineering</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5451,6 +6641,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Productivity</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Productivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Professional_Practice_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participation in the Executive Board of the Junior Engineering Company (EJEL), participation in projects carried out by EJEL, extracurricular internships in the technical area, technological development projects in companies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Professional_Practice_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Professional practice activities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -5661,6 +6861,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Requirements_Validation</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requirements Validation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Research_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participation in research centers or projects of scientific initiation Institutional Program of Scientific Initiation Grants (PIBIC), publication of works, participation in seminars and scientific initiation events related to graduation;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Research_Activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Research activities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -6228,6 +7438,18 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Structure Modeling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Supervised_internship</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mandatory Supervised Internship in Companies or External Entities
+
+Supervised Internship is a compulsory activity in the course. In order to achieve its purpose, by associating the educational process with learning, the stage must be planned, executed, monitored and evaluated within specific and well-defined procedures norms and also be in accordance with the assumptions that guide the pedagogical project of the course.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Supervised_internship</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Supervised internship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Surveillance_of_Software_Configuration_Management</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Surveillance of Software Configuration Management</Literal>
@@ -6276,6 +7498,16 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Taxation</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Taxation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <IRI>/Teaching_activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Monitoring of course subjects, technical course teacher, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/Teaching_activities</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Teaching activities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
@@ -6486,6 +7718,26 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
         <AnnotationProperty abbreviatedIRI="dc:title"/>
         <IRI>/Writing</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Writing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/goals</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Goals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/habilitation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Habilitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/performance</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Performance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <IRI>/professional_profile</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Professional Profile</Literal>
     </AnnotationAssertion>
 </Ontology>
 

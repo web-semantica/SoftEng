@@ -146,10 +146,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Fundamentos_de_Linguagens"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Interacao_Humano_Computador"/>
+        <NamedIndividual IRI="/Introducao_a_Computacao_Grafica"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Introducao_a_Computacao_Grafica"/>
+        <Class IRI="/Interacao_Humano_Computador"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Meio_Ambiente"/>
@@ -170,10 +170,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Pesquisa_Operacional_e_Otimizacao"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Algoritmos_e_Complexidade"/>
+        <NamedIndividual IRI="/Sistema_de_Banco_de_Dados_2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Sistema_de_Banco_de_Dados_2"/>
+        <Class IRI="/Algoritmos_e_Complexidade"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="/objetivos"/>
@@ -206,13 +206,13 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Fluxo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Automacao"/>
+        <NamedIndividual IRI="/Tecnicas_de_Medicao_Funcional_e_Estimativas_de_Software"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Fisica_para_Jogos_Eletronicos_1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Tecnicas_de_Medicao_Funcional_e_Estimativas_de_Software"/>
+        <Class IRI="/Automacao"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Aprendizado_de_Maquina"/>
@@ -296,10 +296,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Primeiro_Semestre"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Probabilidade_e_Estatistica_Aplicado_a_Engenharia"/>
+        <Class IRI="/Processamento_de_Imagens"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Processamento_de_Imagens"/>
+        <NamedIndividual IRI="/Probabilidade_e_Estatistica_Aplicado_a_Engenharia"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Fundamento_de_Sistemas_Operacionais"/>
@@ -323,10 +323,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Engenharia_Economica"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Nucleo_de_Conteudos_Especificos"/>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Obrigatoria"/>
@@ -350,10 +350,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <DataProperty IRI="/creditos"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Atividades_de_Representacoes_Estudantis"/>
+        <NamedIndividual IRI="/Introducao_a_Atividade_Empresarial"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Introducao_a_Atividade_Empresarial"/>
+        <Class IRI="/Atividades_de_Representacoes_Estudantis"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Sexto_Semestre"/>
@@ -416,10 +416,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <NamedIndividual IRI="/Requisitos_de_Software"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Etica_e_Legislacao"/>
+        <ObjectProperty IRI="/temConteudo"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/temConteudo"/>
+        <Class IRI="/Etica_e_Legislacao"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Programacao_para_Competicoes"/>
@@ -467,10 +467,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <NamedIndividual IRI="/Arquitetura_e_Desenho_de_software"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Informacao_Comunicacao_e_a_Sociedade_do_Conhecimento"/>
+        <Class IRI="/Metodologia_Cientifica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Metodologia_Cientifica"/>
+        <NamedIndividual IRI="/Informacao_Comunicacao_e_a_Sociedade_do_Conhecimento"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Inteligencia_Artificial_e_Computacional"/>
@@ -485,10 +485,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Modelagem_Computacional"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Computacao_em_Nuvem"/>
+        <Class IRI="/Fundamentos_de_Administracao"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Fundamentos_de_Administracao"/>
+        <NamedIndividual IRI="/Computacao_em_Nuvem"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Nucleo_de_Conteudos_Profissionalizantes"/>
@@ -572,10 +572,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <ObjectProperty IRI="/eDaInstituicao"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Oitavo_Semestre"/>
+        <Class IRI="/Atividades_de_Praticas_Profissionais"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Atividades_de_Praticas_Profissionais"/>
+        <Class IRI="/Oitavo_Semestre"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://dbpedia.org/resource/University_of_Brasília"/>
@@ -614,10 +614,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <AnnotationProperty IRI="/atuacao"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Fisica_1_Experimental"/>
+        <Class IRI="/Processamento_Distribuido"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Processamento_Distribuido"/>
+        <NamedIndividual IRI="/Fisica_1_Experimental"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Introducao_ao_Desenvolvimento_de_Jogos"/>
@@ -632,19 +632,19 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <Class IRI="/Ergonomia"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Projeto_Integrador_de_Engenharia_2"/>
+        <NamedIndividual IRI="/Introducao_aos_Jogos_Eletronicos"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Introducao_aos_Jogos_Eletronicos"/>
+        <NamedIndividual IRI="/Projeto_Integrador_de_Engenharia_2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Engenharia_de_Produto_de_Software"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <NamedIndividual IRI="/Trabalho_de_Conclusao_de_Curso_2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Trabalho_de_Conclusao_de_Curso_2"/>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Qualidade_de_Software_1"/>
@@ -695,10 +695,10 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <NamedIndividual IRI="/Trabalho_de_Conclusao_de_Curso_1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Qualidade_de_Software_2"/>
+        <Class IRI="/Robotica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Robotica"/>
+        <NamedIndividual IRI="/Qualidade_de_Software_2"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Probabilidade_e_Estatistica"/>
@@ -722,22 +722,22 @@ A inserção do profissional de Engenharia de Software pode se dar junto aos seg
         <NamedIndividual IRI="/Inovacao"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="/estaNoFluxoDo"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Compiladores"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="/Medicao_e_Analise"/>
+        <ObjectProperty IRI="/estaNoFluxoDo"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
+        <NamedIndividual IRI="/Medicao_e_Analise"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dcterms:license"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Classificacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Gestao_de_Conhecimento_estrategica_e_Organizacional"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="/Programacao_Web"/>

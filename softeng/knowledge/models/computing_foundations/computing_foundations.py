@@ -1,5 +1,6 @@
 from core import Query, Sesame
 from .problem_solving_techniques import ProblemSolvingTechniques
+from .abstraction import Abstraction
 
 
 class ComputingFoundations(object):
@@ -65,5 +66,7 @@ class ComputingFoundations(object):
 
         if topic == self.PROBLEM_SOLVING_TECHNIQUES:
             return ProblemSolvingTechniques()
+        elif topic == self.ABSTRACTION:
+            return Abstraction()
         else:
             return None

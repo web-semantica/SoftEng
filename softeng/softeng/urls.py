@@ -9,5 +9,8 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include("query.urls")),
+    path("", include("core.urls")),
+    path("", include("knowledge.urls")),
+    path("", include("curriculum.urls")),
+    path("api/", include("query.urls")),
 ]

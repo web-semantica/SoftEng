@@ -2,7 +2,7 @@ import urllib
 import httplib2
 
 repository = 'softeng'
-context = "http://www.semanticweb.org/ontologies/2018-1/engenharia_de_software"
+context = "http://www.semanticweb.org/ontologies/2018/Software_Engineering"
 filename = './ontology/RDF/softeng.rdf'
 
 print("Loading %s into %s in Sesame tripleStore" % (filename, context))

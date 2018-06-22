@@ -198,10 +198,10 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/System_Definition_Document"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Algorithmic_Design_Strategies"/>
+        <Class IRI="/Change_Management"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Change_Management"/>
+        <Class IRI="/Algorithmic_Design_Strategies"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Continuous_and_Staged_Software_Process_Ratings"/>
@@ -579,9 +579,6 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Software_Requirements_Security"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Supervised_internship"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Communication_Skills"/>
     </Declaration>
     <Declaration>
@@ -840,9 +837,6 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Construction_for_Reuse"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Activities_of_student_representations"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/Construction_Measurement"/>
     </Declaration>
     <Declaration>
@@ -891,10 +885,10 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Software_Testing_Security"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Construction"/>
+        <Class IRI="/Basic_Developer_Human_Factors"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Basic_Developer_Human_Factors"/>
+        <Class IRI="/Software_Construction"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Constraints_and_Guidance_for_the_SCM_Process"/>
@@ -1215,6 +1209,9 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Design_as_a_Problem_Solving_Activity"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Supervised_Internship"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Operating_System_Abstractions"/>
     </Declaration>
     <Declaration>
@@ -1269,10 +1266,10 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Termination_Decisions"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Software_Process_Improvement_Models"/>
+        <Class IRI="/Evolution_of_Software"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Evolution_of_Software"/>
+        <Class IRI="/Software_Process_Improvement_Models"/>
     </Declaration>
     <Declaration>
         <Class IRI="/Construction_in_Life_Cycle_Models"/>
@@ -1545,6 +1542,9 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Computer_Organization"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/Activities_of_Student_Representations"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="/Software_Robustness"/>
     </Declaration>
     <Declaration>
@@ -1596,10 +1596,10 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Object_Oriented_Runtime_Issues"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Nature_and_Role_of_Software_Engineering_Standards"/>
+        <Class IRI="/Documentation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/Documentation"/>
+        <Class IRI="/Nature_and_Role_of_Software_Engineering_Standards"/>
     </Declaration>
     <Declaration>
         <Class IRI="/The_Design_of_User_Interaction_Modalities"/>
@@ -1749,7 +1749,7 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Activities_of_student_representations"/>
+        <Class IRI="/Activities_of_Student_Representations"/>
         <Class IRI="/Free_Module_and_Complementary_and_Extension_Activities"/>
     </SubClassOf>
     <SubClassOf>
@@ -3795,7 +3795,7 @@ The insertion of the Software Engineering professional can take place with the f
         <Class IRI="/Types_of_Models"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/Supervised_internship"/>
+        <Class IRI="/Supervised_Internship"/>
         <Class IRI="/Multidisciplinary"/>
     </SubClassOf>
     <SubClassOf>
@@ -5082,12 +5082,12 @@ Data (geralmente um intervalo) em que o recurso se tornou ou ficará disponível
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <IRI>/Activities_of_student_representations</IRI>
+        <IRI>/Activities_of_Student_Representations</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Effective participation in the Academic Center and Engineering Academic Directory, student representation in collegiate bodies.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <IRI>/Activities_of_student_representations</IRI>
+        <IRI>/Activities_of_Student_Representations</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Activities of student representations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -9194,14 +9194,14 @@ The Engineering Integrator Project disciplines are used in a way that complement
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
-        <IRI>/Supervised_internship</IRI>
+        <IRI>/Supervised_Internship</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mandatory Supervised Internship in Companies or External Entities
 
 Supervised Internship is a compulsory activity in the course. In order to achieve its purpose, by associating the educational process with learning, the stage must be planned, executed, monitored and evaluated within specific and well-defined procedures norms and also be in accordance with the assumptions that guide the pedagogical project of the course.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="dc:title"/>
-        <IRI>/Supervised_internship</IRI>
+        <IRI>/Supervised_Internship</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Supervised internship</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

@@ -11,10 +11,10 @@ class ProblemSolvingTechniques(object):
     Topic: Problem Solving Techniques
     """
 
-    DEFINITION_OF_PROBLEM_SOLVING = 0
-    FORMULATING_THE_REAL_PROBLEM = 1
-    ANALYZE_THE_PROBLEM = 2
-    DESIGN_A_SOLUTION_SEARCH_STRATEGY = 3
+    ANALYZE_THE_PROBLEM = 0
+    DEFINITION_OF_PROBLEM_SOLVING = 1
+    DESIGN_A_SOLUTION_SEARCH_STRATEGY = 2
+    FORMULATING_THE_REAL_PROBLEM = 3
     PROBLEM_SOLVING_USING_PROGRAMS = 4
 
     def __init__(self):
@@ -50,14 +50,14 @@ class ProblemSolvingTechniques(object):
         Get a specific subtopic.
         """
 
-        if subtopic == self.DEFINITION_OF_PROBLEM_SOLVING:
-            return DefinitionOfProblemSolving()
-        elif subtopic == self.FORMULATING_THE_REAL_PROBLEM:
-            return FormulatingTheRealProblem()
-        elif subtopic == self.ANALYZE_THE_PROBLEM:
+        if subtopic == self.ANALYZE_THE_PROBLEM:
             return AnalyzeTheProblem()
+        elif subtopic == self.DEFINITION_OF_PROBLEM_SOLVING:
+            return DefinitionOfProblemSolving()
         elif subtopic == self.DESIGN_A_SOLUTION_SEARCH_STRATEGY:
             return DesignASolutionSearchStrategy()
+        elif subtopic == self.FORMULATING_THE_REAL_PROBLEM:
+            return FormulatingTheRealProblem()
         elif subtopic == self.PROBLEM_SOLVING_USING_PROGRAMS:
             return ProblemSolvingUsingPrograms()
         else:

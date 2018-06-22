@@ -1,6 +1,10 @@
 from core import Query, Sesame
 from .problem_solving_techniques import ProblemSolvingTechniques
 from .abstraction import Abstraction
+from .programming_fundamentals import ProgrammingFundamentals
+from .algorithms_and_complexity import AlgorithmsAndComplexity
+from .basic_concept_of_a_system import BasicConceptOfASystem
+from .basic_developer_human_factors import BasicDeveloperHumanFactors
 
 
 class ComputingFoundations(object):
@@ -8,22 +12,22 @@ class ComputingFoundations(object):
     Computing Foundations Knowledge Area.
     """
 
-    PROBLEM_SOLVING_TECHNIQUES = 0
-    ABSTRACTION = 1
-    PROGRAMMING_FUNDAMENTALS = 2
-    PROGRAMMING_LANGUAGE_BASICS = 3
-    DEBUGGING_TOOLS_AND_TECHNIQUES = 4
-    DATA_STRUCTURE_AND_REPRESENTATION = 5
-    ALGORITHMS_AND_COMPLEXITY = 6
-    BASIC_CONCEPT_OF_A_SYSTEM = 7
-    COMPUTER_ORGANIZATION = 8
-    COMPILER_BASICS = 9
-    OPERATING_SYSTEMS_BASICS = 10
-    DATABASE_BASICS_AND_DATA_MANAGEMENT = 11
-    NETWORK_COMMUNICATION_BASICS = 12
-    PARALLEL_AND_DISTRIBUTED_COMPUTING = 13
-    BASIC_USER_HUMAN_FACTORS = 14
-    BASIC_DEVELOPER_HUMAN_FACTORS = 15
+    ABSTRACTION = 0
+    ALGORITHMS_AND_COMPLEXITY = 1
+    BASIC_CONCEPT_OF_A_SYSTEM = 2
+    BASIC_DEVELOPER_HUMAN_FACTORS = 3
+    BASIC_USER_HUMAN_FACTORS = 4
+    COMPILER_BASICS = 5
+    COMPUTER_ORGANIZATION = 6
+    DATA_STRUCTURE_AND_REPRESENTATION = 7
+    DATABASE_BASICS_AND_DATA_MANAGEMENT = 8
+    DEBUGGING_TOOLS_AND_TECHNIQUES = 9
+    NETWORK_COMMUNICATION_BASICS = 10
+    OPERATING_SYSTEMS_BASICS = 11
+    PARALLEL_AND_DISTRIBUTED_COMPUTING = 12
+    PROBLEM_SOLVING_TECHNIQUES = 13
+    PROGRAMMING_FUNDAMENTALS = 14
+    PROGRAMMING_LANGUAGE_BASICS = 15
     SECURE_SOFTWARE_DEVELOPMENT_AND_MAINTENANCE = 16
 
     def __init__(self):
@@ -64,9 +68,17 @@ class ComputingFoundations(object):
         Get a specific topic
         """
 
-        if topic == self.PROBLEM_SOLVING_TECHNIQUES:
-            return ProblemSolvingTechniques()
-        elif topic == self.ABSTRACTION:
+        if topic == self.ABSTRACTION:
             return Abstraction()
+        elif topic == self.ALGORITHMS_AND_COMPLEXITY:
+            return AlgorithmsAndComplexity()
+        elif topic == self.BASIC_CONCEPT_OF_A_SYSTEM:
+            return BasicConceptOfASystem()
+        elif topic == self.BASIC_DEVELOPER_HUMAN_FACTORS:
+            return BasicDeveloperHumanFactors()
+        elif topic == self.PROBLEM_SOLVING_TECHNIQUES:
+            return ProblemSolvingTechniques()
+        elif topic == self.PROGRAMMING_FUNDAMENTALS:
+            return ProgrammingFundamentals()
         else:
             return None

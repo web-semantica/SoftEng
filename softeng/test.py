@@ -18,11 +18,12 @@ def main():
 
     knowledge = ComputingFoundations()
     print(knowledge.title)
+    print(knowledge.curriculum)
 
-    topic = knowledge.get_topic(knowledge.ABSTRACTION)
+    topic = knowledge.get_topic(knowledge.BASIC_DEVELOPER_HUMAN_FACTORS)
     print(topic.title)
 
-    subtopic = topic.get_subtopic(topic.LEVELS_OF_ABSTRACTION)
+    subtopic = topic.get_subtopic(topic.STRUCTURE)
     print(subtopic.title)
     print(subtopic.description)
 

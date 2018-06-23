@@ -1,0 +1,40 @@
+body {
+  overflow-x: hidden;
+}
+
+.fixed {
+  margin-top: 56px;
+}
+
+.list-group {
+  position: fixed !important;
+  min-width: 200px;
+}
+
+.list-url {
+  min-height: 407px;
+  cursor: default;
+  background-color: #343a40;
+}
+
+.list-group-item {
+  border: initial;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.list-url:hover {
+  background-color: #343a40;
+}
+
+.card {
+  margin-top: 20px;
+}

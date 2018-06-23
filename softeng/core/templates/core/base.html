@@ -11,22 +11,22 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{% static 'core/css/home.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/base.css' %}">
     {% block css %}{% endblock %}
   </head>
 
   <body>
-    <!-- App block  -->
-    {% block body %}{% endblock %}
+    {% include 'core/navbar.html' %}
+
+    <div class="fixed">
+      {% block body %}{% endblock %}
+    </div>
 
     <!-- JS -->
+    <script src="{% static 'core/js/text.js' %}"></script>
     {% block js %}{% endblock %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-
-    <!-- Insert markdown into app -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.7/marked.min.js"></script>
-    <script src="{% static 'core/js/markdown.js' %}"></script>
   </body>
 </html>

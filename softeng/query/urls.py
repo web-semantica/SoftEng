@@ -8,7 +8,7 @@ urlpatterns = [
     path(
         "",
         views.SPARQLQueryAPIView.as_view(),
-        name='query-list-create'
+        name='sparql'
     ),
     # /queries
     path(

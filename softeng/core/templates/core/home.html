@@ -1,0 +1,71 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block body %}
+  <div class="row">
+    <div class="col-sm-2">
+      <div class="list-group">
+        <a href="#"
+           class="list-group-item list-group-item-action bg-dark text-white">
+           <i class="fa fa-book"></i>
+           SWEBOK v3
+        </a>
+        <a href="#"
+           class="list-group-item list-group-item-action bg-dark text-white">
+           <i class="fa fa-graduation-cap"></i>
+           Disciplines
+        </a>
+        <a href="http://localhost:8001/openrdf-workbench/repositories/softeng/summary"
+           class="list-group-item list-group-item-action bg-dark text-white">
+           <i class="fa fa-database"></i>
+           Sesame
+        </a>
+        <a href="{% url 'query:sparql' %}"
+           class="list-group-item list-group-item-action bg-dark text-white">
+           <i class="fa fa-terminal"></i>
+           SPARQL
+        </a>
+        <a href="#" class="list-group-item list-url text-white"></a>
+      </div>
+    </div>
+    <div class="col-sm-10">
+      <div class="container">
+        <div class="card">
+          <div class="card-header bg-dark text-white">
+            {{software.title}} - {{software.habilitation}}
+          </div>
+          <div class="card-body">
+            <div class="table-responsive-sm">
+              <table class="table table-borderless text-justify">
+                <tr>
+                  <th>Title:</th>
+                  <td class="breakline">{{software.label}}</td>
+                </tr>
+                <tr>
+                  <th>Description:</th>
+                  <td class="breakline">{{software.description}}</td>
+                </tr>
+                <tr>
+                  <th>Goals</th>
+                  <td class="breakline">{{software.goals}}</td>
+                </tr>
+                <tr>
+                  <th>Performance</th>
+                  <td class="breakline">{{software.performance}}</td>
+                </tr>
+                <tr>
+                  <th>Professional Profile</th>
+                  <td class="breakline">{{software.professional_profile}}</td>
+                </tr>
+                <tr>
+                  <th>Source</th>
+                  <td class="breakline">{{software.source}}</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

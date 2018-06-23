@@ -20,10 +20,10 @@ def main():
     print(knowledge.title)
     print(knowledge.curriculum)
 
-    topic = knowledge.get_topic(knowledge.BASIC_DEVELOPER_HUMAN_FACTORS)
+    topic = knowledge.get_topic(knowledge.BASIC_USER_HUMAN_FACTORS)
     print(topic.title)
 
-    subtopic = topic.get_subtopic(topic.STRUCTURE)
+    subtopic = topic.get_subtopic(topic.USER_INPUT_AND_OUTPUT)
     print(subtopic.title)
     print(subtopic.description)
 

@@ -5,6 +5,7 @@ from .programming_fundamentals import ProgrammingFundamentals
 from .algorithms_and_complexity import AlgorithmsAndComplexity
 from .basic_concept_of_a_system import BasicConceptOfASystem
 from .basic_developer_human_factors import BasicDeveloperHumanFactors
+from .basic_user_human_factors import BasicUserHumanFactors
 
 
 class ComputingFoundations(object):
@@ -76,6 +77,8 @@ class ComputingFoundations(object):
             return BasicConceptOfASystem()
         elif topic == self.BASIC_DEVELOPER_HUMAN_FACTORS:
             return BasicDeveloperHumanFactors()
+        elif topic == self.BASIC_USER_HUMAN_FACTORS:
+            return BasicUserHumanFactors()
         elif topic == self.PROBLEM_SOLVING_TECHNIQUES:
             return ProblemSolvingTechniques()
         elif topic == self.PROGRAMMING_FUNDAMENTALS:

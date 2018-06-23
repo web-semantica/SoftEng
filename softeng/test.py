@@ -20,12 +20,13 @@ def main():
     print(knowledge.title)
     print(knowledge.curriculum)
 
-    topic = knowledge.get_topic(knowledge.BASIC_USER_HUMAN_FACTORS)
-    print(topic.title)
+    topic = knowledge.get_topic(knowledge.ALGORITHMS_AND_COMPLEXITY)
+    print("TITLE: " + topic.title)
+    # print("DESCRIPTION: " + topic.description)
 
-    subtopic = topic.get_subtopic(topic.USER_INPUT_AND_OUTPUT)
-    print(subtopic.title)
-    print(subtopic.description)
+    subtopic = topic.get_subtopic(topic.OVERVIEW_OF_ALGORITHMS)
+    print("TITLE: " + subtopic.title)
+    print("DESCRIPTION: " + subtopic.description)
 
 
 if __name__ == "__main__":
